@@ -133,7 +133,7 @@ export default function HomePageClient({
           caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          "https://www.roblox.com/games/82018429695568/Flip-A-Boat",
           "https://discord.com/invite/lucidblocks",
           "https://www.reddit.com/r/LucidBlocks/",
           "https://www.youtube.com/@lucy_b_locks",
@@ -153,7 +153,7 @@ export default function HomePageClient({
           "@type": "Offer",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          url: "https://www.roblox.com/games/82018429695568/Flip-A-Boat",
         },
       },
       {
@@ -247,14 +247,14 @@ export default function HomePageClient({
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://www.roblox.com/games/82018429695568/Flip-A-Boat"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
                            border border-border hover:bg-white/10 rounded-lg
                            font-semibold text-base md:text-lg transition-colors"
               >
-                {t.hero.playOnSteamCTA}
+                {t.hero.playOnRobloxCTA}
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -267,24 +267,24 @@ export default function HomePageClient({
         </div>
       </section>
 
+      {/* Video Section - 紧跟 Hero 区域之后 */}
+      <section className="px-4 py-10 md:py-12">
+        <div className="scroll-reveal container mx-auto max-w-5xl">
+          <div className="relative overflow-hidden rounded-2xl">
+            <VideoFeature
+              videoId="Ahns-1if_4I"
+              title="Flip A Boat Game Trailer"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Latest Updates Section */}
       <LatestGuidesAccordion
         articles={latestArticles}
         locale={locale}
         max={12}
       />
-
-      {/* Video Section */}
-      <section className="px-4 py-10 md:py-12">
-        <div className="scroll-reveal container mx-auto max-w-5xl">
-          <div className="relative overflow-hidden rounded-2xl">
-            <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
@@ -1334,7 +1334,7 @@ export default function HomePageClient({
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://www.roblox.com/games/82018429695568/Flip-A-Boat"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1430,7 +1430,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://www.roblox.com/games/82018429695568/Flip-A-Boat"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

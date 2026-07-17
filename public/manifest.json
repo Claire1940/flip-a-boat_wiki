@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Flip A Boat Wiki - Codes, Boats, Repairs & Money",
+  "short_name": "Flip A Boat",
+  "description": "Flip A Boat Wiki covers working codes, boat repairs, parts, upgrades, painting, trailers, cash farming, rebirths, and the best boats to buy and flip.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#0daac9",
+  "background_color": "#051018",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

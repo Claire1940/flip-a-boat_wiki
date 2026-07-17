@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Realistic Boat Flipping Simulator",
+    "title": "Flip A Boat Wiki",
+    "description": "Buy damaged boats, repair every part, customize your fleet, haul boats by truck and trailer, then sell smart for profit and rebirth bonuses.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "49.1K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "2K+",
+        "label": "Favorites"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "1",
+        "label": "Active Code"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "11–40 ft",
+        "label": "Boat Progression"
       }
     }
   },
