@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Flip A Boat para principiantes: Restauración paso a paso y consejos de ganancias",
+  description: "Domina el arte de la reventa de barcos en esta guía de Flip A Boat para principiantes. Aprende a conseguir piezas, restaurar motores y maximizar tus ganancias en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Flip+A+Boat+Guide",
+  date: "2026-07-18",
+  author: "Equipo de Wiki de Flip A Boat",
+  keywords: "flip a boat, guía para principiantes, restauración de barcos, consejos de ganancias, roblox"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Ciclo Principal**: Compra barcos dañados, reemplaza las piezas oxidadas por nuevas y véndelos para obtener una ganancia significativa.
+- **Herramientas Esenciales**: Utiliza la **Part Store** (Tienda de piezas) para componentes nuevos y tu **Plot Computer** (Ordenador de parcela) para la gestión del barco.
+- **Mecánica Clave**: Usa la **tecla F** para encajar las piezas en su lugar durante la fase de ensamblaje.
+- **Estrategia de Ganancias**: Reemplaza siempre cada una de las piezas oxidadas para alcanzar el rango máximo de pago de 5.2K.
+- **Personalización**: Usa la **Brush Tool** (Herramienta de pincel) para cambiar materiales y colores, lo cual es obligatorio antes de la venta final.
+</Callout>
+
+<Section icon={Map} title="Comenzando con tu primera reventa">
+
+Entrar en el mundo de la restauración de barcos requiere una comprensión sólida de la economía y la disposición física del mapa. En esta **guía de Flip A Boat para principiantes**, nos centramos en el camino más eficiente desde un "cubo de óxido" hasta un barco de alto valor. Tu viaje comienza en la Part Store, donde debes adquirir el corazón mecánico de tu proyecto antes de regresar a tu parcela personal para el trabajo pesado.
+
+**Puntos destacados del vídeo:**
+- Consejos de navegación para llegar a la Part Store sin chocar.
+- Cómo identificar y comprar las piezas correctas del motor.
+- Descripción general del bug de inventario y cómo manejar los artículos faltantes.
+- Un recorrido completo por el proceso de desmontaje y ensamblaje.
+
+<YouTubeEmbed videoId="mCavNe3Yp54" title="¡La forma más RÁPIDA de revender un barco en Roblox! ⛵ (Guía completa)" />
+
+La primera regla de la reventa es la logística. Conducir con cuidado hacia la Part Store es crucial, ya que chocar con otros vehículos puede retrasar tu progreso y potencialmente glitchear tu transporte actual. Una vez dentro de la tienda, enfócate en la sección de Motor (Engine/Motor). Para una reventa estándar de principiante, comprar un juego completo de componentes nuevos es la forma más confiable de asegurar un alto valor de reventa.
+
+| Componente | Papel en la restauración | Prioridad |
+| :--- | :--- | :--- |
+| **Bloque del motor** | La unidad de potencia central del barco | Crítico |
+| **Bomba de agua** | Evita el sobrecalentamiento del motor | Alta |
+| **Hélice** | Proporciona el empuje de agua necesario | Crítico |
+| **Bujías** | Esenciales para el encendido del motor | Alta |
+| **Filtro de combustible** | Asegura la entrega de combustible limpio | Media |
+
+<Callout type="warning" title="Alerta de Bug de Inventario">
+Existe un bug conocido en la versión actual de 2026 donde las piezas pueden no aparecer en tu inventario inmediatamente después de la compra. Si esto sucede, regresa a la tienda o consulta el ordenador de tu parcela para verificar la transacción.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="El proceso de restauración mecánica">
+
+Una vez que hayas asegurado tus piezas y regresado a tu parcela, comienza el verdadero trabajo. El flujo de trabajo de esta **guía de Flip A Boat para principiantes** se divide en dos fases: Deconstrucción y Ensamblaje. No puedes instalar piezas nuevas hasta que cada trozo de "óxido" haya sido eliminado del chasis existente. Esto requiere precisión y un enfoque sistemático para asegurar que no se olviden componentes pequeños.
+
+<Steps>
+  <Step num="1" title="Acceder al sistema de gestión del barco">
+    Dirígete al ordenador de tu parcela. Selecciona **Manage** (Gestionar), luego **Edit Boat** (Editar barco) y finalmente entra en la interfaz de **Mechanic** (Mecánico). Esto abre la vista 3D de los componentes internos de tu embarcación.
+  </Step>
+  <Step num="2" title="Desmontar los componentes oxidados">
+    Haz clic y arrastra manualmente cada pieza oxidada fuera del barco. Esto incluye la hélice vieja, la bomba de agua, el carburador y las bujías. Mueve estas piezas a un lado de tu espacio de trabajo.
+  </Step>
+  <Step num="3" title="Instalar el hardware nuevo">
+    Recoge tus piezas nuevas del inventario. Alinéalas con los marcos fantasma resaltados en el motor y presiona la **tecla F** para encajarlas en su lugar. Asegúrate de que la hélice y la bomba de agua estén correctamente asentadas.
+  </Step>
+  <Step num="4" title="Verificación final de componentes">
+    Verifica que el tanque de aceite, el filtro de combustible y la caja de aire estén instalados. El motor debe verse limpio y libre de texturas marrones u oxidadas antes de pasar a la siguiente etapa.
+  </Step>
+</Steps>
+
+| Acción | Tecla | Resultado |
+| :--- | :--- | :--- |
+| **Recoger pieza** | Clic izquierdo | Sostiene el objeto en tu mano |
+| **Encajar pieza** | Tecla F | Bloquea automáticamente la pieza al barco |
+| **Rotar vista** | Clic derecho + Arrastrar | Cambia tu perspectiva del motor |
+| **Abrir menú** | Tecla E | Interactúa con el Plot Computer |
+
+<Callout type="tip" title="Consejo de Eficiencia">
+Desmonta el barco entero primero antes de recoger una sola pieza nueva. Mantener separadas tus pilas de piezas "viejas" y "nuevas" evita confusiones y asegura que no reinstales accidentalmente un componente oxidado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Personalización y mejoras estéticas">
+
+Un barco que funciona bien es solo la mitad de la batalla. Para maximizar tus beneficios en el meta de la **guía de Flip A Boat para principiantes**, debes utilizar las herramientas de personalización. Los compradores en el juego recompensan a los jugadores que se toman el tiempo de aplicar pintura fresca y materiales de alta calidad al casco y la cubierta. Esto no es solo por estética; es un requisito mecánico para alcanzar el precio de venta de nivel superior.
+
+<CardGrid cols={3}>
+  <Card title="La Brush Tool">
+    - **Función principal**: Aplicar colores y materiales.
+    - **Coste**: Pequeña tarifa por pieza modificada.
+    - **Impacto**: Aumento significativo en el valor de venta final.
+  </Card>
+  <Card title="Selección de materiales">
+    - **Opciones**: Brillante, Mate, Metálico y Madera.
+    - **Estrategia**: Usa Metálico para un aspecto premium.
+    - **Requisito**: Cada parte visible debe ser actualizada.
+  </Card>
+  <Card title="Paletas de colores">
+    - **Estándar**: Colores básicos gratuitos.
+    - **Premium**: Tonos únicos para reventas de mayor valor.
+    - **Consejo**: Los colores de alto contraste atraen mejores ofertas.
+  </Card>
+</CardGrid>
+
+Después de terminar las reparaciones mecánicas, navega a la pestaña **Customization** (Personalización) en tu ordenador. Selecciona la Brush Tool y haz clic en las secciones individuales del barco. Tendrás que "comprar" la aplicación de color/material para cada pieza. Aunque esto cuesta una pequeña cantidad de moneda por adelantado, es la diferencia entre una venta de 3K y una de más de 5K.
+
+| Etapa de restauración | Inversión de coste | Tiempo requerido | Valor añadido |
+| :--- | :--- | :--- | :--- |
+| **Cambio de motor** | Alto | 5-8 Minutos | ★★★★★ |
+| **Eliminación de óxido** | Cero | 3-5 Minutos | ★★★★☆ |
+| **Pintura/Material** | Bajo | 2-4 Minutos | ★★★★☆ |
+| **Recarga combustible/aceite** | Bajo | 1 Minuto | ★★☆☆☆ |
+
+<Callout type="success" title="Máximo beneficio alcanzado">
+Al combinar una reconstrucción completa del motor con una renovación total de materiales, los jugadores pueden alcanzar regularmente la marca de pago de 5.2K. Este es el actual "estándar de oro" para las reventas de barcos de principiantes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Maximizando tus márgenes de beneficio">
+
+El paso final en nuestra **guía de Flip A Boat para principiantes** es la venta. Una vez que el barco es mecánicamente sólido y visualmente atractivo, regresa al ordenador de tu parcela. Bajo la pestaña de gestión, verás la opción **Sell** (Vender). El juego calcula tu pago basándose en la calidad de las piezas instaladas y la minuciosidad de tu personalización.
+
+| Condición del barco | Calidad de las piezas | Precio de venta estimado |
+| :--- | :--- | :--- |
+| **Oxidado/Roto** | De serie | 800 - 1,200 |
+| **Reparado mecánicamente** | Nuevo | 3,500 - 4,200 |
+| **Totalmente restaurado** | Nuevo + Pintura personalizada | 5,000 - 5,200 |
+| **Reventa de élite** | Piezas premium | 5,500+ |
+
+Para asegurarte de nunca perder dinero en una reventa, vigila de cerca tus gastos en la Part Store. Comprar duplicados innecesarios (como el error común de comprar tres bujías cuando solo se necesitan dos) puede reducir tus márgenes. Siempre verifica los requisitos específicos del motor del barco antes de ir a comprar.
+
+<Callout type="info" title="Estabilidad del mercado">
+A partir de julio de 2026, el pago de 5.2K sigue siendo el retorno más consistente para el barco inicial. Los jugadores avanzados pueden encontrar embarcaciones más grandes más adelante, pero la lógica de la "reventa" sigue siendo idéntica en todos los niveles de barcos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación final y consejos de expertos">
+
+Antes de poner tu barco a la venta, repasa esta lista de verificación final para asegurarte de que no has pasado por alto ningún detalle que pueda bajar tu valoración. La consistencia es la clave para convertirse en un maestro de la reventa en este juego.
+
+<Checklist
+  id="final-sale-checklist"
+  title="Inspección previa a la venta:"
+  items={[
+    "Verificar que todas las piezas oxidadas se hayan movido a la pila de chatarra",
+    "Confirmar que la hélice y la bomba de agua estén encajadas (tecla F)",
+    "Asegurar que el carburador y el filtro de combustible estén instalados",
+    "Aplicar un nuevo material al casco usando la Brush Tool",
+    "Comprobar que las bujías estén totalmente asentadas en el bloque del motor",
+    "Regresar al ordenador y seleccionar 'Sell' para el pago final"
+  ]}
+/>
+
+El éxito en la reventa de barcos se reduce a la memoria muscular. Cuanto más practiques el proceso de desmontaje y ensamblaje, más rápido completarás cada ciclo. La mayoría de los jugadores experimentados pueden terminar una reventa completa en menos de 15 minutos, lo que permite una rápida acumulación de riqueza.
+
+<Callout type="tip" title="Estrategia Pro">
+Si el botón "Sell" está en gris, generalmente significa que falta una pieza obligatoria. Los culpables comunes incluyen el pequeño filtro de combustible o la caja de aire, que a menudo se pasan por alto durante la fase de ensamblaje.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué el precio de venta de mi barco es tan bajo a pesar de añadir piezas nuevas?",
+    answer: "Esto suele suceder si olvidaste usar la Brush Tool. En esta guía de Flip A Boat para principiantes, enfatizamos que la personalización estética es tan importante como las reparaciones mecánicas para la valoración final."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de volver a la Part Store?",
+    answer: "Conducir es la única forma, pero evita ir campo a través. Mantente en los caminos pavimentados para evitar volcar tu vehículo de transporte, lo que puede hacerte perder mucho tiempo."
+  },
+  {
+    question: "¿Puedo revender varios barcos al mismo tiempo?",
+    answer: "Inicialmente, estás limitado a una parcela. A medida que ganes más dinero con tus reventas de principiante, podrás desbloquear espacios adicionales para gestionar múltiples proyectos simultáneamente."
+  },
+  {
+    question: "¿Cómo soluciono el bug donde las piezas no aparecen en mi inventario?",
+    answer: "Intenta volver a entrar en la Part Store o haz clic de nuevo en el botón 'Manage' de tu ordenador. Si las piezas fueron pagadas, normalmente están registradas en tu cuenta incluso si el icono visual no aparece."
+  }
+]} />
+
+</Section>

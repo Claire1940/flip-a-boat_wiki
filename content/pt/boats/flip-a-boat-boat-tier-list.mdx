@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Flip A Boat! — Tier List de Barcos: Melhores Embarcações para Restaurar e Vender",
+  description: "Descubra a melhor tier list de barcos do Flip A Boat!. Saiba quais embarcações oferecem as maiores margens de lucro, dicas de restauração e estratégias de mercado em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boat+Tier+List",
+  date: "2026-07-18",
+  author: "Equipe da Wiki do Flip A Boat!"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ranking principal**: Use esta tier list de barcos do Flip A Boat! para identificar embarcações de alto rendimento e maximizar os lucros de restauração.
+- **Foco no nível superior**: Priorize iates de luxo e lanchas clássicas para garantir o maior retorno sobre o investimento.
+- **Ordem crucial de restauração**: Conclua os reparos estruturais e a limpeza do casco antes de fazer o upgrade de componentes caros do motor.
+- **Timing de mercado**: Venda as embarcações finalizadas durante os ciclos de pico de demanda para maximizar os valores finais de negociação.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Sistema de Tiers de Barcos">
+
+No mercado de restauração e revenda de barcos, a eficiência é a chave para expandir seu negócio. Nem todas as embarcações são criadas iguais; algumas exigem apenas pequenos retoques cosméticos para um retorno rápido, enquanto outras demandam reformas estruturais completas que podem esgotar seu orçamento se não forem gerenciadas com cuidado. Este guia categoriza as embarcações disponíveis para ajudá-lo a tomar decisões de compra informadas no estaleiro.
+
+Para estabelecer uma hierarquia clara, as embarcações são avaliadas com base no custo inicial de compra, despesa média de restauração, investimento de tempo e lucro potencial de revenda. O objetivo é otimizar seu fluxo de trabalho para que você gaste menos tempo lixando cascos e mais tempo fechando negócios de alto valor.
+
+<CardGrid cols={3}>
+  <Card title="Classe de Luxo">
+    - **Alto potencial de lucro**
+    - Grande investimento inicial
+    - Sistemas de motor complexos
+  </Card>
+  <Card title="Classe Clássica">
+    - **Custos de restauração moderados**
+    - Alto apelo para colecionadores
+    - Exige marcenaria detalhada
+  </Card>
+  <Card title="Classe Utilitária">
+    - **Baixa barreira de entrada**
+    - Tempos de resposta rápidos
+    - Margens consistentes, porém menores
+  </Card>
+</CardGrid>
+
+| Tier | Classe do Barco | Preço Base Médio | Custo Médio de Reparo | Lucro Estimado | Dificuldade |
+|------|-----------------|------------------|-----------------------|----------------|-------------|
+| S-Tier | Iate de Luxo | $45.000 | $15.000 | $30.000 | Difícil |
+| S-Tier | Lancha Clássica | $12.000 | $4.000 | $10.000 | Médio |
+| A-Tier | Cruzeiro de Cabine | $22.000 | $8.000 | $14.000 | Médio |
+| A-Tier | Console Central | $8.500 | $3.000 | $6.500 | Fácil |
+| B-Tier | Barco Pontão | $6.000 | $2.500 | $4.000 | Fácil |
+| C-Tier | Barco Jon Utilitário | $1.500 | $800 | $1.000 | Fácil |
+
+<Callout type="info" title="Dica de Mercado">
+Sempre inspecione a integridade do casco antes de comprar qualquer embarcação. Danos estruturais pesados podem dobrar seus custos estimados de reparo e reduzir suas margens de lucro gerais.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Análise de Embarcações S-Tier e A-Tier">
+
+As embarcações de nível superior oferecem o melhor equilíbrio entre tempo gasto e lucro gerado. Focar nesses modelos garante que sua oficina opere com o máximo de eficiência financeira.
+
+### S-Tier: Os Gigantes do Lucro
+Estes barcos representam o auge dos retornos de restauração. Embora exijam um investimento de capital inicial significativo e ferramentas avançadas, o retorno na revenda é incomparável. A Lancha Clássica, em particular, beneficia-se da alta demanda de colecionadores, permitindo negociações agressivas durante a fase de venda.
+
+| Modelo do Barco | Material Principal | Tipo de Motor | Tempo de Restauro | Comprador Alvo |
+|-----------------|--------------------|---------------|-------------------|----------------|
+| Vanguard Cruiser | Fibra de Vidro | Popa Duplo | 6 Horas | Colecionador de Luxo |
+| Legacy Runabout | Madeira de Mogno | V8 Interno | 4 Horas | Entusiasta Vintage |
+
+### A-Tier: Os Ganhadores Confiáveis
+As embarcações A-Tier são o ganha-pão de uma oficina de restauração em crescimento. Elas apresentam preços de compra moderados e caminhos de reparo previsíveis, tornando-as excelentes projetos quando você deseja evitar investimentos de alto risco.
+
+| Modelo do Barco | Material Principal | Tipo de Motor | Tempo de Restauro | Comprador Alvo |
+|-----------------|--------------------|---------------|-------------------|----------------|
+| Zephyr Sloop | Fibra de Vidro | Diesel Auxiliar | 3,5 Horas | Escola de Vela |
+| Triton Fisher | Alumínio | Popa Único | 2 Horas | Pescador Recreativo |
+
+<Callout type="success" title="Bônus de Restauração">
+O uso de tinta marinha premium em lanchas de madeira S-Tier aumenta a pontuação de apelo final em 15%, frequentemente desencadeando ofertas de compradores premium.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Processo de Restauração Passo a Passo">
+
+Para maximizar seus retornos, você deve seguir um fluxo de trabalho de restauração estruturado. Desviar-se desta ordem pode levar ao desperdício de materiais e mão de obra redundante.
+
+<Steps>
+  <Step num="1" title="Aquisição e Transporte">
+    Compre a embarcação no ferro-velho ou na casa de leilões. Prenda-a em seu trailer de transporte e leve-a para a baia principal da oficina.
+  </Step>
+  <Step num="2" title="Remoção e Limpeza do Casco">
+    Use a lavadora de alta pressão para remover incrustações marinhas, cracas e tinta descascada. Lixe o casco até o material de base para preparar para o trabalho de remendo.
+  </Step>
+  <Step num="3" title="Reparos Estruturais">
+    Remende quaisquer rachaduras na fibra de vidro ou substitua tábuas de madeira apodrecidas. Certifique-se de que o casco esteja completamente estanque antes de prosseguir para os upgrades cosméticos.
+  </Step>
+  <Step num="4" title="Revisão Mecânica">
+    Reconstrua ou substitua o motor, faça a manutenção dos cabos de direção e atualize a fiação elétrica. Um motor funcional certificado é necessário para uma avaliação de nível superior.
+  </Step>
+  <Step num="5" title="Detalhamento Cosmético e Venda">
+    Aplique tinta de grau marinho, polir todos os acessórios cromados e instale estofados novos. Liste o barco no mercado e negocie com compradores interessados.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso Crítico">
+Nunca pule a etapa de reparo estrutural. Vender um barco com danos ocultos no casco pode levar a severas penalidades de reputação e demandas de reembolso dos compradores.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Custos de Materiais e Otimização de Lucro">
+
+Diferentes materiais de construção de barcos exigem ferramentas especializadas e técnicas de reparo. Entender essas diferenças ajuda você a orçar seus projetos com precisão.
+
+A fibra de vidro é fácil de remendar, mas requer equipamentos de segurança e ventilação. A madeira oferece o maior valor estético, mas exige habilidades precisas de carpintaria e selantes caros. O alumínio é altamente durável e rápido de reparar, mas tem um teto menor para valor cosmético.
+
+| Material | Ferramenta de Reparo Necessária | Custo Médio de Material | Nível de Habilidade | Multiplicador de Valor |
+|----------|---------------------------------|-------------------------|---------------------|------------------------|
+| Fibra de Vidro | Kit de Reparo de Gelcoat | Médio | Intermediário | 1.2x |
+| Madeira de Mogno | Verniz Marinho e Prancha | Alto | Avançado | 1.5x |
+| Alumínio | Soldador TIG e Rebites | Baixo | Iniciante | 1.0x |
+
+<Callout type="tip" title="Dica de Eficiência">
+Compre sua resina de fibra de vidro e verniz marinho em grandes quantidades de fornecedores comerciais. Isso reduz seus custos de material por projeto em até 20%.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos e Objetivos de Revenda">
+
+Acompanhe seu progresso para garantir que sua oficina esteja escalando de forma eficaz. Alcançar esses marcos desbloqueia melhor acesso a leilões e contratos de restauração de nível superior.
+
+<Checklist
+  id="flipping-milestones"
+  title="Marcos Essenciais da Oficina:"
+  items={[
+    "Concluir 5 revendas bem-sucedidas de barcos utilitários para desbloquear a licença comercial",
+    "Atualizar o trailer da oficina para transportar grandes iates de luxo",
+    "Comprar o soldador TIG avançado para reparos em cascos de alumínio",
+    "Alcançar uma margem de lucro média de 45% em dez vendas consecutivas",
+    "Desbloquear a casa de leilões de colecionadores vintage ao restaurar uma lancha clássica de madeira"
+  ]}
+/>
+
+<Callout type="info" title="Detalhe de Progressão">
+Desbloquear a licença comercial reduz as taxas de transação de leilão em 5%, aumentando diretamente seu lucro líquido em cada revenda.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual barco na tier list do Flip A Boat! oferece a margem de lucro mais alta absoluta?",
+    answer: "O Legacy Runabout entrega consistentemente o maior retorno sobre o investimento devido aos baixos custos iniciais de salvamento e à alta demanda de colecionadores, desde que você domine o processo de restauração de madeira."
+  },
+  {
+    question: "Como lidar com problemas de motor em barcos de salvamento?",
+    answer: "Se o motor estiver gravemente danificado, geralmente é mais econômico trocá-lo por um motor de popa recondicionado do que pagar por reparos de componentes individuais."
+  },
+  {
+    question: "A cor da tinta afeta o valor de revenda do barco?",
+    answer: "Sim, cores clássicas como azul marinho, branco e verde caçador geralmente atraem ofertas mais altas, enquanto cores neon brilhantes podem limitar seu grupo de compradores interessados."
+  },
+  {
+    question: "Posso revender barcos sem atualizar as ferramentas da minha oficina?",
+    answer: "Você pode revender barcos de níveis inferiores, como barcos Jon e barcos pontão, com ferramentas básicas, mas embarcações S-Tier de alto lucro exigem equipamentos avançados de diagnóstico e reparo."
+  }
+]} />
+
+<Callout type="success" title="Veredito Final">
+Concentre seus esforços em projetos S-tier e A-tier assim que estabelecer um fluxo de caixa estável. A execução consistente do processo de restauração passo a passo é o caminho mais rápido para construir um império lucrativo de revenda marítima.
+</Callout>
+
+</Section>

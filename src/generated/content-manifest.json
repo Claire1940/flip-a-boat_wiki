@@ -1,1 +1,450 @@
-{}
+{
+  "en": {
+    "boats": [
+      {
+        "slug": "flip-a-boat-boat-customization",
+        "file": "flip-a-boat-boat-customization"
+      },
+      {
+        "slug": "flip-a-boat-boat-locations",
+        "file": "flip-a-boat-boat-locations"
+      },
+      {
+        "slug": "flip-a-boat-boat-prices",
+        "file": "flip-a-boat-boat-prices"
+      },
+      {
+        "slug": "flip-a-boat-boat-tier-list",
+        "file": "flip-a-boat-boat-tier-list"
+      },
+      {
+        "slug": "flip-a-boat-boat-values",
+        "file": "flip-a-boat-boat-values"
+      },
+      {
+        "slug": "flip-a-boat-fastest-boat",
+        "file": "flip-a-boat-fastest-boat"
+      },
+      {
+        "slug": "flip-a-boat-rare-boats",
+        "file": "flip-a-boat-rare-boats"
+      },
+      {
+        "slug": "flip-a-boat-starter-boat",
+        "file": "flip-a-boat-starter-boat"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "flip-a-boat-codes",
+        "file": "flip-a-boat-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "flip-a-boat-beginner-guide",
+        "file": "flip-a-boat-beginner-guide"
+      },
+      {
+        "slug": "flip-a-boat-controls",
+        "file": "flip-a-boat-controls"
+      },
+      {
+        "slug": "flip-a-boat-full-guide",
+        "file": "flip-a-boat-full-guide"
+      },
+      {
+        "slug": "flip-a-boat-how-to-play",
+        "file": "flip-a-boat-how-to-play"
+      },
+      {
+        "slug": "flip-a-boat-mobile-guide",
+        "file": "flip-a-boat-mobile-guide"
+      },
+      {
+        "slug": "flip-a-boat-progression-guide",
+        "file": "flip-a-boat-progression-guide"
+      },
+      {
+        "slug": "flip-a-boat-tips",
+        "file": "flip-a-boat-tips"
+      }
+    ],
+    "money": [
+      {
+        "slug": "flip-a-boat-best-boat-for-profit",
+        "file": "flip-a-boat-best-boat-for-profit"
+      },
+      {
+        "slug": "flip-a-boat-buying-prices",
+        "file": "flip-a-boat-buying-prices"
+      },
+      {
+        "slug": "flip-a-boat-money-guide",
+        "file": "flip-a-boat-money-guide"
+      },
+      {
+        "slug": "flip-a-boat-profit-calculator",
+        "file": "flip-a-boat-profit-calculator"
+      },
+      {
+        "slug": "flip-a-boat-selling-prices",
+        "file": "flip-a-boat-selling-prices"
+      }
+    ],
+    "release": [
+      {
+        "slug": "flip-a-boat-leaks",
+        "file": "flip-a-boat-leaks"
+      },
+      {
+        "slug": "flip-a-boat-patch-notes",
+        "file": "flip-a-boat-patch-notes"
+      },
+      {
+        "slug": "flip-a-boat-release-date",
+        "file": "flip-a-boat-release-date"
+      },
+      {
+        "slug": "flip-a-boat-trailer",
+        "file": "flip-a-boat-trailer"
+      },
+      {
+        "slug": "flip-a-boat-updates",
+        "file": "flip-a-boat-updates"
+      }
+    ],
+    "repairs": [
+      {
+        "slug": "flip-a-boat-boat-parts",
+        "file": "flip-a-boat-boat-parts"
+      },
+      {
+        "slug": "flip-a-boat-boat-upgrades",
+        "file": "flip-a-boat-boat-upgrades"
+      },
+      {
+        "slug": "flip-a-boat-engine-repair",
+        "file": "flip-a-boat-engine-repair"
+      },
+      {
+        "slug": "flip-a-boat-hull-repair",
+        "file": "flip-a-boat-hull-repair"
+      },
+      {
+        "slug": "flip-a-boat-repair-costs",
+        "file": "flip-a-boat-repair-costs"
+      },
+      {
+        "slug": "flip-a-boat-repair-guide",
+        "file": "flip-a-boat-repair-guide"
+      }
+    ],
+    "transport": [
+      {
+        "slug": "flip-a-boat-how-to-launch-a-boat",
+        "file": "flip-a-boat-how-to-launch-a-boat"
+      },
+      {
+        "slug": "flip-a-boat-how-to-load-a-boat",
+        "file": "flip-a-boat-how-to-load-a-boat"
+      },
+      {
+        "slug": "flip-a-boat-how-to-tow-a-boat",
+        "file": "flip-a-boat-how-to-tow-a-boat"
+      },
+      {
+        "slug": "flip-a-boat-trailers",
+        "file": "flip-a-boat-trailers"
+      },
+      {
+        "slug": "flip-a-boat-trucks",
+        "file": "flip-a-boat-trucks"
+      }
+    ]
+  },
+  "es": {
+    "boats": [
+      {
+        "slug": "flip-a-boat-boat-tier-list",
+        "file": "flip-a-boat-boat-tier-list"
+      },
+      {
+        "slug": "flip-a-boat-boat-values",
+        "file": "flip-a-boat-boat-values"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "flip-a-boat-codes",
+        "file": "flip-a-boat-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "flip-a-boat-beginner-guide",
+        "file": "flip-a-boat-beginner-guide"
+      },
+      {
+        "slug": "flip-a-boat-controls",
+        "file": "flip-a-boat-controls"
+      },
+      {
+        "slug": "flip-a-boat-full-guide",
+        "file": "flip-a-boat-full-guide"
+      },
+      {
+        "slug": "flip-a-boat-how-to-play",
+        "file": "flip-a-boat-how-to-play"
+      },
+      {
+        "slug": "flip-a-boat-mobile-guide",
+        "file": "flip-a-boat-mobile-guide"
+      },
+      {
+        "slug": "flip-a-boat-progression-guide",
+        "file": "flip-a-boat-progression-guide"
+      },
+      {
+        "slug": "flip-a-boat-tips",
+        "file": "flip-a-boat-tips"
+      }
+    ],
+    "release": [
+      {
+        "slug": "flip-a-boat-leaks",
+        "file": "flip-a-boat-leaks"
+      },
+      {
+        "slug": "flip-a-boat-patch-notes",
+        "file": "flip-a-boat-patch-notes"
+      },
+      {
+        "slug": "flip-a-boat-release-date",
+        "file": "flip-a-boat-release-date"
+      },
+      {
+        "slug": "flip-a-boat-trailer",
+        "file": "flip-a-boat-trailer"
+      }
+    ],
+    "repairs": [
+      {
+        "slug": "flip-a-boat-boat-parts",
+        "file": "flip-a-boat-boat-parts"
+      },
+      {
+        "slug": "flip-a-boat-boat-upgrades",
+        "file": "flip-a-boat-boat-upgrades"
+      },
+      {
+        "slug": "flip-a-boat-engine-repair",
+        "file": "flip-a-boat-engine-repair"
+      },
+      {
+        "slug": "flip-a-boat-hull-repair",
+        "file": "flip-a-boat-hull-repair"
+      },
+      {
+        "slug": "flip-a-boat-repair-costs",
+        "file": "flip-a-boat-repair-costs"
+      },
+      {
+        "slug": "flip-a-boat-repair-guide",
+        "file": "flip-a-boat-repair-guide"
+      }
+    ]
+  },
+  "pt": {
+    "boats": [
+      {
+        "slug": "flip-a-boat-boat-tier-list",
+        "file": "flip-a-boat-boat-tier-list"
+      },
+      {
+        "slug": "flip-a-boat-boat-values",
+        "file": "flip-a-boat-boat-values"
+      },
+      {
+        "slug": "flip-a-boat-fastest-boat",
+        "file": "flip-a-boat-fastest-boat"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "flip-a-boat-codes",
+        "file": "flip-a-boat-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "flip-a-boat-beginner-guide",
+        "file": "flip-a-boat-beginner-guide"
+      },
+      {
+        "slug": "flip-a-boat-controls",
+        "file": "flip-a-boat-controls"
+      },
+      {
+        "slug": "flip-a-boat-full-guide",
+        "file": "flip-a-boat-full-guide"
+      },
+      {
+        "slug": "flip-a-boat-how-to-play",
+        "file": "flip-a-boat-how-to-play"
+      },
+      {
+        "slug": "flip-a-boat-mobile-guide",
+        "file": "flip-a-boat-mobile-guide"
+      },
+      {
+        "slug": "flip-a-boat-progression-guide",
+        "file": "flip-a-boat-progression-guide"
+      },
+      {
+        "slug": "flip-a-boat-tips",
+        "file": "flip-a-boat-tips"
+      }
+    ],
+    "release": [
+      {
+        "slug": "flip-a-boat-leaks",
+        "file": "flip-a-boat-leaks"
+      },
+      {
+        "slug": "flip-a-boat-patch-notes",
+        "file": "flip-a-boat-patch-notes"
+      },
+      {
+        "slug": "flip-a-boat-release-date",
+        "file": "flip-a-boat-release-date"
+      },
+      {
+        "slug": "flip-a-boat-trailer",
+        "file": "flip-a-boat-trailer"
+      },
+      {
+        "slug": "flip-a-boat-updates",
+        "file": "flip-a-boat-updates"
+      }
+    ],
+    "repairs": [
+      {
+        "slug": "flip-a-boat-boat-parts",
+        "file": "flip-a-boat-boat-parts"
+      },
+      {
+        "slug": "flip-a-boat-boat-upgrades",
+        "file": "flip-a-boat-boat-upgrades"
+      },
+      {
+        "slug": "flip-a-boat-engine-repair",
+        "file": "flip-a-boat-engine-repair"
+      },
+      {
+        "slug": "flip-a-boat-hull-repair",
+        "file": "flip-a-boat-hull-repair"
+      },
+      {
+        "slug": "flip-a-boat-repair-costs",
+        "file": "flip-a-boat-repair-costs"
+      },
+      {
+        "slug": "flip-a-boat-repair-guide",
+        "file": "flip-a-boat-repair-guide"
+      }
+    ]
+  },
+  "ru": {
+    "boats": [
+      {
+        "slug": "flip-a-boat-boat-tier-list",
+        "file": "flip-a-boat-boat-tier-list"
+      },
+      {
+        "slug": "flip-a-boat-boat-values",
+        "file": "flip-a-boat-boat-values"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "flip-a-boat-codes",
+        "file": "flip-a-boat-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "flip-a-boat-beginner-guide",
+        "file": "flip-a-boat-beginner-guide"
+      },
+      {
+        "slug": "flip-a-boat-controls",
+        "file": "flip-a-boat-controls"
+      },
+      {
+        "slug": "flip-a-boat-full-guide",
+        "file": "flip-a-boat-full-guide"
+      },
+      {
+        "slug": "flip-a-boat-how-to-play",
+        "file": "flip-a-boat-how-to-play"
+      },
+      {
+        "slug": "flip-a-boat-mobile-guide",
+        "file": "flip-a-boat-mobile-guide"
+      },
+      {
+        "slug": "flip-a-boat-tips",
+        "file": "flip-a-boat-tips"
+      }
+    ],
+    "release": [
+      {
+        "slug": "flip-a-boat-leaks",
+        "file": "flip-a-boat-leaks"
+      },
+      {
+        "slug": "flip-a-boat-patch-notes",
+        "file": "flip-a-boat-patch-notes"
+      },
+      {
+        "slug": "flip-a-boat-release-date",
+        "file": "flip-a-boat-release-date"
+      },
+      {
+        "slug": "flip-a-boat-trailer",
+        "file": "flip-a-boat-trailer"
+      },
+      {
+        "slug": "flip-a-boat-updates",
+        "file": "flip-a-boat-updates"
+      }
+    ],
+    "repairs": [
+      {
+        "slug": "flip-a-boat-boat-parts",
+        "file": "flip-a-boat-boat-parts"
+      },
+      {
+        "slug": "flip-a-boat-boat-upgrades",
+        "file": "flip-a-boat-boat-upgrades"
+      },
+      {
+        "slug": "flip-a-boat-engine-repair",
+        "file": "flip-a-boat-engine-repair"
+      },
+      {
+        "slug": "flip-a-boat-hull-repair",
+        "file": "flip-a-boat-hull-repair"
+      },
+      {
+        "slug": "flip-a-boat-repair-costs",
+        "file": "flip-a-boat-repair-costs"
+      },
+      {
+        "slug": "flip-a-boat-repair-guide",
+        "file": "flip-a-boat-repair-guide"
+      }
+    ]
+  }
+}

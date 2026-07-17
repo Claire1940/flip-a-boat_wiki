@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Settings, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Controles de Flip A Boat!: Guia Mestre de Manuseio e Navegação",
+  description: "Domine os controles de Flip A Boat! para 2026. Aprenda comandos de PC e console, mecânicas de estabilidade de barcos e atalhos de reforma de oficina neste guia.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boat+Handling+Controls",
+  date: "2026-07-18",
+  author: "Equipe da Wiki de Flip A Boat!",
+  keywords: "controles, navegação, oficina, estabilidade, guia de jogo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Controles de Flip A Boat!**: Domine os esquemas de entrada de **Navegação** e **Oficina** para máxima eficiência.
+- **Núcleo de Estabilidade**: Use a mecânica de **Compensação (Trim)** para evitar o capotamento durante manobras em alta velocidade.
+- **Precisão na Oficina**: Utilize **Shift + Clique** para um posicionamento refinado durante a fase de reforma.
+- **Segurança em Primeiro Lugar**: Monitore sempre o elemento de UI do **Centro de Gravidade** ao modificar os cascos dos barcos.
+- **Customização de Comandos**: Reatribua o **Interruptor de Emergência** a uma tecla acessível para salvar sua embarcação de virar.
+</Callout>
+
+<Section icon={Settings} title="Esquemas de Entrada e Teclas de Atalho">
+
+Compreender os **controles de Flip A Boat!** é o primeiro passo para se tornar um mestre na reforma de barcos. O jogo divide sua lógica de controle em dois modos distintos: **Modo de Navegação** para velejar e **Modo de Oficina** para reformas. O domínio de ambos é necessário para garantir que seu investimento não acabe no fundo do lago.
+
+| Ação | Tecla PC | Controle Xbox | Controle PS5 |
+| :--- | :--- | :--- | :--- |
+| **Acelerar** | W / Seta para Cima | RT | R2 |
+| **Desacelerar/Ré** | S / Seta para Baixo | LT | L2 |
+| **Virar Esquerda/Direita** | A / D | Analógico Esquerdo | Analógico Esquerdo |
+| **Ajuste de Trim** | Q / E | RB / LB | R1 / L1 |
+| **Interruptor de Emergência** | Espaço | B | Círculo |
+| **Alternar Âncora** | G | X | Quadrado |
+| **Menu de Interação** | Tab | Botão View | Touchpad |
+| **Alternar Câmera** | V | Pressionar Analógico Dir. | R3 |
+
+<Callout type="info" title="Sensibilidade de Entrada">
+Você pode ajustar a zona morta (deadzone) da direção no menu de configurações. Para lanchas menores, recomenda-se uma zona morta menor para curvas mais fechadas, enquanto iates maiores se beneficiam de uma zona morta maior para evitar excesso de direção (oversteering).
+</Callout>
+
+**Destaques do Vídeo:**
+- Demonstrando o impacto do gerenciamento de aceleração na estabilidade do barco.
+- Como se recuperar de um quase-capotamento usando os controles de trim.
+- Técnicas adequadas de atracação usando empuxo reverso.
+
+<YouTubeEmbed videoId="weOnIxkHVLQ" title="Como não virar um barco" />
+
+</Section>
+
+<Section icon={Anchor} title="Mecânicas de Navegação e Estabilidade">
+
+O motor de física em **Flip A Boat!** é implacável. Se você acelerar demais em uma curva fechada sem ajustar o trim, o barco irá capotar. Os **controles de Flip A Boat!** para navegação exigem um equilíbrio delicado entre velocidade e distribuição de peso.
+
+<CardGrid cols={3}>
+  <Card title="Equilíbrio do Casco">
+    - A **distribuição de peso** afeta o centro de gravidade.
+    - Móveis colocados de forma desigual na fase de oficina causam inclinação lateral.
+    - A **Classificação de Estabilidade** cai ao adicionar componentes pesados no topo.
+  </Card>
+  <Card title="Controle de Trim">
+    - **Trim para Cima** levanta a proa para maiores velocidades em águas calmas.
+    - **Trim para Baixo** mantém a proa baixa para cortar ondas agitadas.
+    - Essencial para evitar a "golfinhagem" (oscilação vertical) em altas velocidades.
+  </Card>
+  <Card title="Física de Curva">
+    - Velocidades mais altas aumentam significativamente o **Raio de Curva**.
+    - Reduza a velocidade antes de iniciar uma manobra de 90 graus.
+    - Use rajadas curtas de ré para girar em docas apertadas.
+  </Card>
+</CardGrid>
+
+| Condição do Mar | Trim Recomendado | Limite de Velocidade | Risco de Estabilidade |
+| :--- | :--- | :--- | :--- |
+| **Lago Calmo** | Neutro / Alto | 100% | Baixo |
+| **Ondas Costeiras** | Baixo / Para Baixo | 65% | Médio |
+| **Mares Tempestuosos** | Totalmente para Baixo | 30% | Alto |
+| **Correntes de Rio** | Variável | 50% | Médio |
+
+<Callout type="warning" title="Risco de Capotamento">
+Se o seu barco inclinar além de 45 graus, o motor parará automaticamente. Use o **Interruptor de Emergência** imediatamente para interromper o momento de avanço e permitir que o casco se auto-endireite.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Controles de Oficina e Reforma">
+
+Quando não estiver na água, você usará os **controles de Flip A Boat!** para desmontar, reparar e atualizar suas embarcações. O modo de oficina usa um sistema de entrada baseado em precisão, semelhante a softwares de arquitetura.
+
+<Steps>
+  <Step num="1" title="Inspeção Inicial">
+    Use a **Ferramenta de Scanner (F)** para destacar fraquezas estruturais. Zonas vermelhas indicam brechas no casco que devem ser remendadas antes do lançamento do barco.
+  </Step>
+  <Step num="2" title="Desmontagem de Componentes">
+    Segure o **Botão Esquerdo do Mouse (LMB)** para desmontar motores antigos ou móveis. Use **Ctrl + Clique** para selecionar vários itens para remoção em massa e economizar tempo.
+  </Step>
+  <Step num="3" title="Posicionamento de Precisão">
+    Ao instalar novas peças, use a **Roda do Mouse** para girar objetos. Segurar **Shift** permite incrementos de rotação de 1 grau para um alinhamento perfeito.
+  </Step>
+  <Step num="4" title="Pintura e Detalhamento">
+    Selecione a **Pistola de Pintura** na barra de acesso rápido. Use **R** para abrir a paleta de cores. Aplicar várias camadas aumenta a estatística de "Apelo de Revenda" do barco.
+  </Step>
+</Steps>
+
+| Tipo de Ferramenta | Função Principal | Modificador de Controle | Bônus de Eficiência |
+| :--- | :--- | :--- | :--- |
+| **Lixadeira** | Remove ferrugem/tinta antiga | Segurar LMB | **Alto** |
+| **Soldador** | Repara a integridade do casco | Cliques de Precisão | **Médio** |
+| **Chave Inglesa** | Manutenção do motor | Minijogo de Tempo | **Alto** |
+| **Polidor** | Aumenta o brilho/valor | Movimento Contínuo | **Baixo** |
+
+<Callout type="tip" title="Eficiência na Oficina">
+Você pode alternar o "Ajuste à Grade" (Grid Snapping) nas configurações da oficina. Isso é extremamente útil ao colocar tábuas de piso ou armários internos para garantir que o peso permaneça simétrico.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Táticas Avançadas de Manobra">
+
+Depois de dominar os **controles básicos de Flip A Boat!**, você pode passar para técnicas avançadas usadas por jogadores profissionais para navegar em vias navegáveis difíceis e maximizar seu lucro de revenda.
+
+**Técnica de Atrracação de Precisão:**
+1. Aproxime-se do píer a não mais que **5 nós**.
+2. Mude para **Neutro (N)** a cerca de 20 metros de distância.
+3. Use **A/D** para alinhar o casco paralelamente à doca.
+4. Toque em **Ré (S)** para anular o momento restante.
+5. Pressione **G** para lançar a âncora e amarrar a embarcação.
+
+**Lidando com Diferentes Classes de Barcos:**
+- **Botes (Skiffs)**: Extremamente responsivos, mas propensos a virar com o vento.
+- **Consoles Centrais**: A classe mais equilibrada para iniciantes.
+- **Cruzeiros de Cabine**: Alta inércia; exige frenagem antecipada e curvas largas.
+- **Lanchas Rápidas**: Exigem ajuste constante de trim para permanecerem niveladas.
+
+| Classe do Barco | Resposta de Manuseio | Estabilidade | Dificuldade |
+| :--- | :--- | :--- | :--- |
+| **Bote** | ★★★★★ | ★★☆☆☆ | Fácil |
+| **Pontão** | ★☆☆☆☆ | ★★★★★ | Fácil |
+| **Lancha Rápida** | ★★★★☆ | ★☆☆☆☆ | Difícil |
+| **Traineira** | ★★☆☆☆ | ★★★★☆ | Médio |
+
+<Callout type="success" title="Estratégia Pro">
+Ao navegar por canais estreitos, mude para a **Câmera em Primeira Pessoa (V)**. Isso proporciona uma melhor noção da largura do barco em relação às boias e evita danos acidentais ao casco.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Segurança e Solução de Problemas">
+
+Até os melhores pilotos cometem erros. Se você estiver tendo dificuldades com os **controles de Flip A Boat!** ou se seu barco acabar de cabeça para baixo, siga estas etapas de solução de problemas para recuperar seu progresso.
+
+<Checklist
+  id="pre-launch-safety"
+  title="Checklist Pré-Lançamento:"
+  items={[
+    "Verifique se todas as brechas do casco foram reparadas e seladas",
+    "Confira os níveis de óleo e combustível do motor via interface",
+    "Garanta que a distribuição de peso esteja dentro da zona verde",
+    "Teste a responsividade da direção nas docas rasas",
+    "Equipe o kit de sinalizadores de emergência em seu inventário"
+  ]}
+/>
+
+**Como Recuperar um Barco Virado:**
+Se o barco capotar durante um teste, você não poderá endireitá-lo usando os controles padrão. Você deve usar o **Serviço de Recuperação** no menu de interação (Tab). Isso custa uma pequena taxa, mas teletransporta seu barco de volta para a oficina. Para evitar isso, mantenha sempre seu **Centro de Massa** baixo, colocando baterias pesadas e tanques de combustível na parte mais baixa do porão.
+
+<Callout type="warning" title="Inundação do Motor">
+Se um barco permanecer virado por mais de 60 segundos, o motor sofrerá **Danos por Água**. Isso exigirá uma desmontagem completa na oficina, o que pode reduzir significativamente suas margens de lucro na revenda.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quais são os controles de Flip A Boat! mais importantes para iniciantes?",
+    answer: "Os controles mais importantes são W/S para aceleração e Q/E para o trim. Aprender a usar o trim corretamente é a diferença entre um passeio suave e um barco capotado."
+  },
+  {
+    question: "Posso reatribuir os controles em Flip A Boat!?",
+    answer: "Sim, todos os atalhos de teclado podem ser totalmente personalizados no menu Configurações > Entrada. Muitos jogadores preferem reatribuir o Trim para os botões laterais do mouse para facilitar o acesso durante as curvas."
+  },
+  {
+    question: "Por que meu barco continua puxando para a esquerda?",
+    answer: "Isso geralmente é causado por uma distribuição de peso desigual no Modo de Oficina. Verifique se você colocou itens pesados como geradores ou móveis em apenas um lado. Você também pode usar os controles de Trim para neutralizar uma leve inclinação."
+  },
+  {
+    question: "Existe suporte para controle no PC?",
+    answer: "Sim, o jogo tem suporte nativo total para controles de Xbox e PlayStation. A interface do usuário será atualizada dinamicamente para mostrar os botões corretos com base no seu dispositivo conectado."
+  }
+]} />
+
+</Section>

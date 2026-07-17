@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Iniciante de Flip A Boat!: Restauração Passo a Passo e Dicas de Lucro",
+  description: "Domine a arte de reformar barcos neste guia de iniciante de Flip A Boat!. Aprenda a obter peças, restaurar motores e maximizar seus lucros em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Flip+A+Boat+Guide",
+  date: "2026-07-18",
+  author: "Equipe da Wiki de Flip A Boat!"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Loop Principal**: Compre barcos danificados, substitua peças enferrujadas por novas e venda-os com um lucro significativo.
+- **Ferramentas Essenciais**: Utilize a **Loja de Peças** para novos componentes e o seu **Computador do Lote** para o gerenciamento de barcos.
+- **Mecânica Chave**: Use a **tecla F** para encaixar as peças no lugar durante a fase de montagem.
+- **Estratégia de Lucro**: Sempre substitua cada uma das peças enferrujadas para alcançar a faixa máxima de pagamento de 5.2K.
+- **Personalização**: Use a **Ferramenta Pincel** para alterar materiais e cores, o que é obrigatório antes da venda final.
+</Callout>
+
+<Section icon={Map} title="Primeiros Passos com Sua Primeira Reforma">
+
+Entrar no mundo da restauração de barcos exige uma sólida compreensão da economia e do layout físico do mapa. Neste **guia de iniciante de Flip A Boat!**, focamos no caminho mais eficiente de uma "lata de lixo enferrujada" a uma embarcação de alto valor. Sua jornada começa na Loja de Peças, onde você deve adquirir o coração mecânico do seu projeto antes de voltar ao seu lote pessoal para o trabalho pesado.
+
+**Destaques do Vídeo:**
+- Dicas de navegação para chegar à Loja de Peças sem bater.
+- Como identificar e comprar as peças corretas de motor e propulsão.
+- Visão geral do bug do inventário e como lidar com itens ausentes.
+- Um passo a passo completo do processo de desmontagem e montagem.
+
+<YouTubeEmbed videoId="mCavNe3Yp54" title="A Maneira Mais RÁPIDA de Reformar um Barco no Roblox! ⛵ (Guia Completo)" />
+
+A primeira regra da reforma é a logística. Dirigir com cuidado até a Loja de Peças é crucial, pois bater em outros veículos pode atrasar seu progresso e potencialmente travar seu transporte atual. Uma vez dentro da loja, foque na seção de Motor (Engine/Motor). Para uma reforma padrão de iniciante, comprar um conjunto completo de componentes novos é a maneira mais confiável de garantir um alto valor de revenda.
+
+| Componente | Função na Restauração | Prioridade |
+| :--- | :--- | :--- |
+| **Bloco do Motor** | A unidade de potência central do barco | Crítica |
+| **Bomba de Água** | Evita o superaquecimento do motor | Alta |
+| **Hélice** | Fornece o empuxo de água necessário | Crítica |
+| **Velas de Ignição** | Essencial para a ignição do motor | Alta |
+| **Filtro de Combustível** | Garante a entrega de combustível limpo | Média |
+
+<Callout type="warning" title="Alerta de Bug no Inventário">
+Existe um bug conhecido na versão atual de 2026 onde as peças podem não aparecer no seu inventário imediatamente após a compra. Se isso acontecer, volte à loja ou verifique o computador do seu lote para confirmar a transação.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="O Processo de Restauração Mecânica">
+
+Depois de garantir suas peças e retornar ao seu lote, o trabalho real começa. O fluxo de trabalho do **guia de iniciante de Flip A Boat!** é dividido em duas fases: Desmontagem e Montagem. Você não pode instalar peças novas até que cada pedaço de "ferrugem" tenha sido removido da estrutura existente. Isso exige precisão e uma abordagem sistemática para garantir que nenhum componente pequeno seja deixado para trás.
+
+<Steps>
+  <Step num="1" title="Acesse o Sistema de Gerenciamento do Barco">
+    Vá até o computador no seu lote. Selecione **Gerenciar** (Manage), depois **Editar Barco** (Edit Boat) e, finalmente, entre na interface **Mecânico** (Mechanic). Isso abre a visualização 3D dos componentes internos da sua embarcação.
+  </Step>
+  <Step num="2" title="Desmonte os Componentes Enferrujados">
+    Clique e arraste manualmente cada peça enferrujada para fora do barco. Isso inclui a hélice antiga, a bomba de água, o carburador e as velas de ignição. Mova-as para o lado da sua área de trabalho.
+  </Step>
+  <Step num="3" title="Instale as Peças Novas">
+    Pegue suas peças novas do inventário. Alinhe-as com as silhuetas fantasmas destacadas no motor e pressione a **tecla F** para encaixá-las no lugar. Certifique-se de que a hélice e a bomba de água estejam posicionadas corretamente.
+  </Step>
+  <Step num="4" title="Verificação Final dos Componentes">
+    Verifique se o tanque de óleo, o filtro de combustível e a caixa de ar estão todos instalados. O motor deve parecer limpo e livre de qualquer textura marrom ou enferrujada antes de passar para a próxima etapa.
+  </Step>
+</Steps>
+
+| Ação | Tecla de Atalho | Resultado |
+| :--- | :--- | :--- |
+| **Pegar Peça** | Clique Esquerdo | Segura o item na sua mão |
+| **Encaixar Peça** | Tecla F | Trava automaticamente a peça no barco |
+| **Rotacionar Câmera** | Clique Direito + Arrastar | Altera sua perspectiva do motor |
+| **Abrir Menu** | Tecla E | Interage com o Computador do Lote |
+
+<Callout type="tip" title="Dica de Eficiência">
+Desmonte o barco inteiro primeiro antes de pegar uma única peça nova. Manter suas pilhas de "velhas" e "novas" separadas evita confusão e garante que você não reinstale acidentalmente um componente enferrujado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Personalização e Melhorias Estéticas">
+
+Um barco que funciona bem é apenas metade da batalha. Para maximizar seu lucro no meta do **guia de iniciante de Flip A Boat!**, você deve utilizar as ferramentas de personalização. Os compradores no jogo recompensam os jogadores que dedicam tempo para aplicar pintura fresca e materiais de alta qualidade ao casco e ao convés. Isso não é apenas para exibição; é um requisito mecânico para alcançar o preço de venda de nível mais alto.
+
+<CardGrid cols={3}>
+  <Card title="A Ferramenta Pincel">
+    - **Função principal**: Aplicar cores e materiais.
+    - **Custo**: Pequena taxa por peça modificada.
+    - **Impacto**: Aumento significativo no valor final de venda.
+  </Card>
+  <Card title="Seleção de Materiais">
+    - **Opções**: Brilhante, Fosco, Metálico e Madeira.
+    - **Estratégia**: Use Metálico para um visual premium.
+    - **Requisito**: Cada parte visível deve ser atualizada.
+  </Card>
+  <Card title="Paletas de Cores">
+    - **Padrão**: Cores básicas gratuitas.
+    - **Premium**: Tons exclusivos para reformas de maior valor.
+    - **Dica**: Cores de alto contraste atraem ofertas melhores.
+  </Card>
+</CardGrid>
+
+Depois de terminar os reparos mecânicos, navegue até a aba **Personalização** (Customization) no seu computador. Selecione a Ferramenta Pincel e clique nas seções individuais do barco. Você precisará "comprar" a aplicação de cor/material para cada peça. Embora isso custe uma pequena quantia de dinheiro adiantado, é a diferença entre uma venda de 3K e uma venda de mais de 5K.
+
+| Estágio de Restauração | Investimento de Custo | Tempo Necessário | Valor Agregado |
+| :--- | :--- | :--- | :--- |
+| **Troca de Motor** | Alto | 5-8 Minutos | ★★★★★ |
+| **Remoção de Ferrugem** | Zero | 3-5 Minutos | ★★★★☆ |
+| **Pintura/Material** | Baixo | 2-4 Minutos | ★★★★☆ |
+| **Reabastecimento de Combustível/Óleo** | Baixo | 1 Minuto | ★★☆☆☆ |
+
+<Callout type="success" title="Lucro Máximo Alcançado">
+Ao combinar uma reconstrução completa do motor com uma renovação total de materiais, os jogadores podem atingir regularmente a marca de pagamento de 5.2K. Este é o atual "padrão ouro" para reformas de barcos para iniciantes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Maximizando Suas Margens de Lucro">
+
+O passo final no nosso **guia de iniciante de Flip A Boat!** é a venda. Assim que o barco estiver mecanicamente em ordem e visualmente atraente, volte ao computador do seu lote. Na aba de gerenciamento, você verá a opção de **Vender** (Sell). O jogo calcula seu pagamento com base na qualidade das peças instaladas e no capricho da sua personalização.
+
+| Condição do Barco | Qualidade das Peças | Preço de Venda Estimado |
+| :--- | :--- | :--- |
+| **Enferrujado/Quebrado** | Padrão | 800 - 1.200 |
+| **Mecanicamente Consertado** | Nova | 3.500 - 4.200 |
+| **Totalmente Restaurado** | Nova + Pintura Personalizada | 5.000 - 5.200 |
+| **Reforma de Elite** | Peças Premium | 5.500+ |
+
+Para garantir que você nunca perca dinheiro em uma reforma, fique de olho nos seus gastos na Loja de Peças. Comprar duplicatas desnecessárias (como o erro comum de comprar três velas de ignição quando apenas duas são necessárias) pode corroer suas margens. Sempre verifique os requisitos específicos do motor do barco antes de ir às compras.
+
+<Callout type="info" title="Estabilidade do Mercado">
+Em julho de 2026, o pagamento de 5.2K continua sendo o retorno mais consistente para o barco inicial. Jogadores avançados podem encontrar embarcações maiores mais tarde, mas a lógica de "reforma" permanece idêntica em todos os níveis de barcos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificação Final e Conselhos de Especialistas">
+
+Antes de colocar seu barco à venda, passe por esta lista de verificação final para garantir que não esqueceu nenhum detalhe que possa diminuir sua avaliação. A consistência é a chave para se tornar um mestre em reformas neste jogo.
+
+<Checklist
+  id="final-sale-checklist"
+  title="Inspeção Pré-Venda:"
+  items={[
+    "Verifique se todas as peças enferrujadas foram movidas para a pilha de sucata",
+    "Confirme se a Hélice e a Bomba de Água estão encaixadas (tecla F)",
+    "Garanta que o Carburador e o Filtro de Combustível estejam instalados",
+    "Aplique um novo material ao casco usando a Ferramenta Pincel",
+    "Verifique se as Velas de Ignição estão totalmente assentadas no bloco do motor",
+    "Volte ao computador e selecione 'Vender' para o pagamento final"
+  ]}
+/>
+
+O sucesso na reforma de barcos se resume à memória muscular. Quanto mais você praticar o processo de desmontagem e montagem, mais rápido completará cada ciclo. A maioria dos jogadores experientes consegue terminar uma reforma completa em menos de 15 minutos, permitindo um rápido acúmulo de riqueza.
+
+<Callout type="tip" title="Estratégia Profissional">
+Se o botão "Vender" estiver cinza, geralmente significa que uma peça obrigatória está faltando. Os culpados mais comuns incluem o pequeno filtro de combustível ou a caixa de ar, que frequentemente passam despercebidos durante a fase de montagem.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Por que o preço de venda do meu barco está tão baixo, apesar de ter adicionado peças novas?",
+    answer: "Isso geralmente acontece se você esqueceu de usar a Ferramenta Pincel. Neste guia de iniciante de Flip A Boat!, enfatizamos que a personalização estética é tão importante quanto os reparos mecânicos para a avaliação final."
+  },
+  {
+    question: "Qual é a maneira mais rápida de voltar para a Loja de Peças?",
+    answer: "Dirigir é a única maneira, mas evite fazer trilhas fora da estrada. Siga os caminhos pavimentados para evitar capotar seu veículo de transporte, o que pode desperdiçar muito tempo."
+  },
+  {
+    question: "Posso reformar vários barcos ao mesmo tempo?",
+    answer: "Inicialmente, você está limitado a um lote. À medida que ganha mais dinheiro com suas reformas iniciais, você pode desbloquear slots adicionais para gerenciar vários projetos simultaneamente."
+  },
+  {
+    question: "Como faço para corrigir o bug onde as peças não aparecem no meu inventário?",
+    answer: "Tente entrar novamente na Loja de Peças ou clicar no botão 'Gerenciar' no seu computador novamente. Se as peças foram pagas, elas geralmente são registradas na sua conta, mesmo que o ícone visual esteja faltando."
+  }
+]} />
+
+</Section>

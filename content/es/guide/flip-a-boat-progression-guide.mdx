@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de progresión de Flip A Boat!: Ruta rápida de construcción y venta",
+  description: "Domina la ruta de progresión óptima en Flip A Boat!. Mejora motores, reemplaza piezas oxidadas, personaliza cascos y maximiza tus ganancias de reventa.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Progression+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Flip A Boat!",
+  keywords: "Flip A Boat!, guía de progresión, reventa de barcos, tutorial de motor, ganar dinero rápido"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Usa esta **guía de progresión de Flip A Boat!** para optimizar tu flujo de trabajo de reconstrucción y aumentar el flujo de caja al inicio del juego.
+- Compra siempre componentes nuevos en la **Tienda de piezas (Parts Store)** antes de desmantelar tu embarcación para evitar problemas de sincronización del inventario.
+- Reemplaza artículos oxidados como hélices, bombas de agua y carburadores para aumentar el valor base del barco.
+- Aplica materiales y colores personalizados usando la **Herramienta de pincel (Brush Tool)** para desbloquear los multiplicadores máximos de pago antes de vender.
+</Callout>
+
+<Section icon={Map} title="Ciclo del inicio del juego: Los conceptos básicos de la reventa">
+
+Para establecer un ciclo de reventa rentable, los jugadores deben dominar el ciclo de viaje y adquisición. El núcleo del juego consiste en comprar embarcaciones desgastadas, conducir hasta la tienda de piezas local, asegurar nuevos componentes y regresar a la parcela personal para realizar mejoras mecánicas. Navegar por el mapa requiere una conducción cuidadosa, ya que las colisiones con otros vehículos u obstáculos pueden causar fallos físicos, retrasando tu progresión.
+
+**Puntos destacados del video:**
+- **Ruta de navegación**: La ruta de conducción óptima desde la parcela del jugador hasta la tienda de piezas.
+- **Adquisición de piezas**: Cómo seleccionar y comprar los componentes correctos del motor.
+- **Ensamblaje mecánico**: El proceso de quitar piezas oxidadas y encajar las nuevas en su lugar.
+- **Multiplicadores de personalización**: Uso de la herramienta de pincel para aumentar el precio de venta final a más de 5.2K.
+
+<YouTubeEmbed videoId="mCavNe3Yp54" title="¡La forma más RÁPIDA de revender un barco en Roblox! ⛵ (Guía completa)" />
+
+Al regresar a tu parcela, interactúa con la terminal de computadora principal para gestionar tus proyectos activos. Seleccionar la opción de edición cambia el juego al modo de ensamblaje mecánico, donde puedes separar físicamente las piezas viejas e instalar componentes mejorados.
+
+| Etapa | Objetivo Principal | Ubicación Clave | Tiempo Esperado |
+|---|---|---|---|
+| Fase 1 | Comprar casco base y piezas iniciales | Tienda de piezas | 2-3 Minutos |
+| Fase 2 | Desmontar componentes oxidados del motor | Parcela del jugador | 3-4 Minutos |
+| Fase 3 | Instalar motor mejorado y personalizar | Parcela del jugador | 2-3 Minutos |
+| Fase 4 | Vender embarcación completada para obtener ganancias | Terminal de computadora | 1 Minuto |
+
+<Callout type="warning" title="Advertencia de Colisión">
+La física de Roblox puede ser impredecible. Evita chocar con los vehículos de otros jugadores en la carretera, ya que las colisiones a alta velocidad pueden desplazar tu carga o volcar tu vehículo de transporte, lo que provoca pérdida de tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Piezas de mejora esenciales: Oxidadas vs Nuevas">
+
+Mejorar la mecánica interna de un barco es la forma más fiable de aumentar su valor de mercado. Las embarcaciones predeterminadas vienen equipadas con piezas oxidadas e ineficientes que reducen drásticamente la calificación del barco. Reemplazar estas piezas con alternativas nuevas y brillantes de la tienda de piezas aumenta el valor de reventa exponencialmente.
+
+<CardGrid cols={3}>
+  <Card title="Reventa Económica">
+    - **Bajo costo de inversión**
+    - Piezas de repuesto estándar
+    - Adecuado para el farmeo inicial
+  </Card>
+  <Card title="Reventa Equilibrada">
+    - **Inversión moderada**
+    - Bloque de motor y hélice mejorados
+    - Márgenes de beneficio sólidos para la mitad del juego
+  </Card>
+  <Card title="Reventa Premium">
+    - **Alto costo de inversión**
+    - Materiales de primer nivel y pintura personalizada
+    - Pago máximo por barco completado
+  </Card>
+</CardGrid>
+
+Al comprar piezas, concéntrate en los componentes centrales del motor, como la bomba de agua, el carburador, el filtro de combustible y las bujías. Mantener un registro de tu inventario es esencial, ya que un error de sincronización común puede impedir ocasionalmente que las piezas recién compradas se muestren en tu inventario. Si esto ocurre, regresar a la tienda de piezas o volver a entrar en el menú de edición suele resolver el problema.
+
+| Nombre de la Pieza | Condición | Valor Base | Valor de Mejora | Margen de Beneficio |
+|---|---|---|---|---|
+| Hélice | Oxidada | Bajo | Alto | Medio |
+| Bomba de agua | Oxidada | Bajo | Alto | Medio |
+| Carburador | Oxidada | Medio | Alto | Alto |
+| Bujía | Oxidada | Bajo | Medio | Bajo |
+| Filtro de combustible | Oxidada | Bajo | Medio | Bajo |
+
+<Callout type="tip" title="Solución al Error de Inventario">
+Si notas que faltan piezas compradas en tu inventario mientras editas, regresa a la tienda de piezas para actualizar el estado de tu personaje, o guarda y recarga tu construcción actual.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Restauración paso a paso: Reconstrucción del motor">
+
+Reconstruir el motor requiere un enfoque sistemático. Quitar las piezas en el orden incorrecto puede dificultar el acceso a los componentes más profundos, como el filtro de combustible o las bujías. Sigue esta línea de montaje estructurada para minimizar los tiempos de construcción.
+
+<Steps>
+  <Step num="1" title="Desmantelar el motor oxidado">
+    Interactúa con la computadora, selecciona el modo de edición y desprende manualmente la hélice oxidada, la bomba de agua, el carburador, la caja de aire, el filtro de combustible y las bujías. Coloca estos componentes viejos en el área de descarte designada en tu parcela.
+  </Step>
+  <Step num="2" title="Instalar la nueva hélice y bomba">
+    Recoge la nueva hélice, alinéala con el eje de transmisión trasero y presiona la tecla de interacción (predeterminada: F) para encajarla en su lugar. Repite este proceso para la bomba de agua mejorada.
+  </Step>
+  <Step num="3" title="Montar el carburador y la caja de aire">
+    Coloca el nuevo carburador directamente en el colector de admisión del motor. Una vez asegurado, monta la caja de aire sobre la entrada del carburador para completar el sistema principal de suministro de aire.
+  </Step>
+  <Step num="4" title="Asegurar el sistema de combustible y las bujías">
+    Coloca el pequeño filtro de combustible en su ranura cerca de la línea de combustible. Finalmente, inserta las nuevas bujías en la culata del motor para asegurar que el sistema de encendido sea totalmente operativo.
+  </Step>
+</Steps>
+
+Una vez que los componentes mecánicos estén asegurados, verifica que todas las conexiones estén resaltadas en verde, lo que indica una instalación exitosa. Una sola bujía faltante o un filtro mal alineado puede evitar que el barco sea reconocido como completo.
+
+| Paso de Ensamblaje | Componente Clave | Herramienta/Tecla | Calificación de Dificultad |
+|---|---|---|---|
+| Paso 1 | Bloque del motor | Agarrar / Arrastrar | Fácil |
+| Paso 2 | Bomba de agua | Tecla F (Encajar) | Fácil |
+| Paso 3 | Carburador | Tecla F (Encajar) | Medio |
+| Paso 4 | Bujías | Tecla F (Encajar) | Fácil |
+
+<Callout type="success" title="Ensamblaje Completado">
+Verifica dos veces que todas las piezas oxidadas se hayan movido físicamente lejos del casco del barco. Dejar piezas viejas cerca del compartimento del motor a veces puede interferir con la verificación de finalización.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Personalización: Aumentando tu multiplicador de pago">
+
+Después de completar la reconstrucción mecánica, el paso final para maximizar las ganancias es la personalización cosmética. El juego cuenta con una herramienta de pincel que permite a los jugadores aplicar diferentes colores y materiales a secciones individuales del barco. El uso de materiales premium aumenta significativamente el valor de tasación final.
+
+Para personalizar tu barco, selecciona la herramienta de pincel en la parte inferior del menú de personalización. Haz clic en la parte específica del casco o del motor que deseas modificar, elige el material deseado y confirma la compra. 
+
+| Tipo de Material | Costo | Multiplicador de Valor | Atractivo Visual |
+|---|---|---|---|
+| Plástico Mate | Bajo | 1.0x | Básico |
+| Pintura Brillante | Medio | 1.2x | Bueno |
+| Madera Pulida | Medio | 1.3x | Genial |
+| Metal Cromado | Alto | 1.5x | Excelente |
+
+Aplicar materiales de alto nivel a los componentes estructurales principales, como el casco y la cubierta, produce el mayor retorno de la inversión. Incluso las piezas menores, como el asiento o el volante, se benefician de modificaciones de color básicas.
+
+<Checklist
+  id="customization-checklist"
+  title="Objetivos de personalización antes de la venta:"
+  items={[
+    "Aplicar pintura personalizada a la estructura principal del casco",
+    "Mejorar el material de la cubierta a madera pulida o cromo",
+    "Cambiar el color de la tapa del motor para que coincida con el tema del casco",
+    "Asegurarse de que todas las piezas individuales hayan sido personalizadas al menos una vez",
+    "Verificar el valor estimado final en la pantalla de la computadora antes de vender"
+  ]}
+/>
+
+<Callout type="info" title="Inversión en Materiales">
+Aunque los materiales premium cuestan más por adelantado, el multiplicador que aplican al precio de venta final generalmente cubre el costo y genera una mayor ganancia neta.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hitos de progresión: Escalando tu operación">
+
+A medida que acumules efectivo de tus reventas iniciales, debes pasar de los barcos básicos de inicio a embarcaciones más grandes y complejas. Los barcos de niveles superiores requieren más piezas y tiempos de ensamblaje más largos, pero ofrecen márgenes de beneficio sustancialmente mayores.
+
+| Nivel | Clase de Barco | Costo Promedio Piezas | Precio Venta Promedio | Beneficio Neto |
+|---|---|---|---|---|
+| Nivel 1 | Bote pequeño / Inicial | $1,500 | $5,200 | $3,700 |
+| Nivel 2 | Lancha clásica | $3,500 | $9,800 | $6,300 |
+| Nivel 3 | Lancha rápida | $7,000 | $18,500 | $11,500 |
+| Nivel 4 | Crucero de lujo | $15,000 | $38,000 | $23,000 |
+
+Para escalar de manera eficiente, evita acumular piezas de bajo valor. Vende el stock viejo de inmediato y reinvierte tu capital en la compra de componentes de motor de alto nivel. Mantener tu espacio de trabajo limpio también evita errores físicos causados por demasiados objetos sueltos renderizados en tu parcela.
+
+<Callout type="tip" title="Gestión del Espacio de Trabajo">
+Limpia regularmente las piezas viejas y oxidadas de tu parcela. Un espacio de trabajo desordenado puede reducir tu tasa de fotogramas y dificultar la selección de las piezas nuevas correctas durante el ensamblaje.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de progresar usando esta guía de progresión de Flip A Boat!?",
+    answer: "La ruta de progresión más rápida implica comprar piezas nuevas primero, intercambiarlas rápidamente con las piezas oxidadas en tu parcela, aplicar una personalización de material básica y vender el barco de inmediato para repetir el ciclo."
+  },
+  {
+    question: "¿Por qué mis piezas compradas no aparecen en mi inventario?",
+    answer: "Este es un error de sincronización conocido. Puedes resolverlo regresando a la tienda de piezas para actualizar el estado de tu inventario, o saliendo y volviendo a entrar en el menú de edición en tu computadora."
+  },
+  {
+    question: "¿Personalizar el color y el material del barco realmente aumenta las ganancias?",
+    answer: "Sí, personalizar las piezas con la herramienta de pincel aplica un multiplicador de valor. Los materiales de alto nivel como el cromo o la madera pulida producen los pagos más altos en relación con su costo inicial."
+  },
+  {
+    question: "¿Puedo mejorar varios barcos al mismo tiempo?",
+    answer: "Generalmente, es más eficiente concentrarse en un barco a la vez para evitar confusiones de piezas y minimizar el riesgo de fallos físicos en tu parcela."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+Supervisa constantemente los precios del mercado en la terminal de la computadora, ya que los valores de los barcos pueden fluctuar ligeramente dependiendo de la configuración específica de las piezas instaladas.
+</Callout>
+
+</Section>
