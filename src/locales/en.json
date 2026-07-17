@@ -10,14 +10,7 @@
       "twitterDescription": "Flip A Boat Wiki covers working codes, boat repairs, parts, money farming, rebirths, and the best boats to flip on Roblox."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
