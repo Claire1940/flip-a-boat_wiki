@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,696 +52,408 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Flip A Boat Gameplay",
+    "description": "Buy wrecked boats, repair every damaged part, paint and customize your fleet, haul projects by truck and trailer, and resell restored boats for Cash and rebirth bonuses on Roblox."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Flip A Boat",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to buy, repair, customize, haul, and flip boats for profit in Flip A Boat.",
     "cards": [
       {
+        "icon": "Ticket",
+        "title": "Flip A Boat Codes",
+        "description": "Working codes, rewards, and the redemption steps"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Flip A Boat Beginner Guide",
+        "description": "Buy, haul, repair, and sell your first project boat"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Ship",
+        "title": "Flip A Boat Boats and Progression",
+        "description": "Boat tiers from an 11-foot starter to a 40-foot console"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Wrench",
+        "title": "Flip A Boat Repair Guide",
+        "description": "Part-by-part repairs and pre-sale condition checks"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Coins",
+        "title": "Flip A Boat Money Guide",
+        "description": "Buy low, control repair costs, and sell for profit"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Palette",
+        "title": "Flip A Boat Customization and Fleet",
+        "description": "Paint, outboard setups, and personal fleet storage"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Truck",
+        "title": "Flip A Boat Trucks and Trailers",
+        "description": "Load, tow, launch, and recover boats safely"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "RotateCcw",
+        "title": "Flip A Boat Rebirths and Updates",
+        "description": "Rebirth bonuses and the latest PolyCore Games changes"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "flipABoatCodes": {
+      "title": "Flip A Boat Codes",
+      "eyebrow": "Free Cash",
+      "subtitle": "Redeem the latest Flip A Boat code for free Cash to fund your first boat purchase and required repairs.",
+      "intro": "Flip A Boat codes are redeemed through the Settings menu. Enter codes exactly as displayed and use Cash rewards as a repair reserve instead of spending everything on a larger project boat.",
+      "codes": [
+        {
+          "code": "release",
+          "status": "Working",
+          "reward": "10,000 Cash",
+          "verified": "2026-07-17",
+          "note": "Use the reward for a manageable boat and the replacement parts required to complete its repair."
+        }
+      ],
+      "expired": {
+        "status": "Expired",
+        "message": "No expired Flip A Boat codes are currently listed.",
+        "verified": "2026-07-17"
+      },
+      "redeemTitle": "How to Redeem Flip A Boat Codes",
+      "redeemSteps": [
+        "Launch Flip A Boat through its official Roblox page.",
+        "Select the gear button in the bottom-left corner.",
+        "Scroll to the Redeem Code section in Settings.",
+        "Enter release in the code box.",
+        "Press Enter or Return to claim 10,000 Cash."
+      ]
+    },
+    "flipABoatBeginnerGuide": {
+      "title": "Flip A Boat Beginner Guide",
+      "eyebrow": "Start Flipping",
+      "subtitle": "Buy a damaged boat, haul it to your workspace, repair it part by part and sell it for more Cash.",
+      "intro": "The main progression loop begins with a beat-up 11-foot boat and eventually reaches large 40-foot center-console boats with four outboard engines. Successful beginners protect their repair budget, complete required mechanical work first, and reinvest each sale into the next project.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Claim Your Launch Cash",
+          "description": "Redeem the code release for 10,000 Cash before purchasing your first project.",
+          "tip": "Keep most of the reward available for replacement parts.",
+          "mistake": "Spending the entire reward on the purchase price and having no Cash left for repairs."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Buy a Finishable Boat",
+          "description": "Start with the lowest progression tier, including the 11-foot starter project, and review its damaged components before committing.",
+          "tip": "Choose a boat that leaves a clear repair reserve after purchase.",
+          "mistake": "Buying the largest affordable hull instead of the boat you can fully repair."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Haul It to the Workshop",
+          "description": "Use the truck and boat trailer to collect the project, align the trailer carefully, and transport the boat to your repair area.",
+          "tip": "Use the transport equipment already available before spending on optional upgrades.",
+          "mistake": "Approaching the trailer too quickly and repeatedly missing the attachment position."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "title": "Inspect Every Damaged Part",
+          "description": "Open the boat's repair interactions and check the hull, outboard engine, steering controls, gauges, and other highlighted components.",
+          "tip": "Buy only the exact parts requested by the repair interface.",
+          "mistake": "Purchasing unrelated parts or cosmetic items before completing the inspection."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "title": "Repair Before Customizing",
+          "description": "Complete required mechanical and structural repairs first. Paint and optional customization should come after the boat's required condition work is finished.",
+          "tip": "Prioritize engines, steering, gauges, electronics, and required hull components.",
+          "mistake": "Using starting Cash on paint or accessories while important systems remain damaged."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "title": "Sell and Reinvest",
+          "description": "Complete a final condition check, sell the restored boat for Cash, and use the profit to purchase a larger project. Boats can also be customized and stored as part of your fleet.",
+          "tip": "Move up one progression tier at a time and keep a repair reserve for every new project.",
+          "mistake": "Treating the sale price as pure profit without subtracting the boat and part costs."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "flipABoatBoatsAndProgression": {
+      "title": "Flip A Boat Boats and Progression",
+      "eyebrow": "Boat Progression",
+      "subtitle": "Progress from an 11-foot starter project to a 40-foot center console powered by four outboard engines.",
+      "intro": "Boat purchase prices are displayed in the live market and scale with vessel size, condition, and repair workload. Larger projects require more working capital and parts, but they also provide greater resale potential and progression value.",
+      "tableHeaders": {
+        "stage": "Stage",
+        "boatClass": "Boat Class",
+        "size": "Size",
+        "engine": "Engine Setup",
+        "resale": "Resale",
+        "strategy": "Best Strategy"
+      },
+      "boats": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "stage": "Starter",
+          "boatClass": "11-Foot Project Boat",
+          "size": "11 feet",
+          "engine": "Small-boat outboard",
+          "resale": "Entry-level",
+          "strategy": "Complete several low-cost flips and preserve Cash for required parts."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "stage": "Early Game",
+          "boatClass": "Small Project Boats",
+          "size": "Above the 11-foot starter tier",
+          "engine": "Single outboard",
+          "resale": "Low to moderate",
+          "strategy": "Choose projects with short repair lists and repeat the full buy-repair-sell loop."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "stage": "Mid Game",
+          "boatClass": "Medium Project Boats",
+          "size": "Mid-size hull range",
+          "engine": "Larger or multi-outboard",
+          "resale": "Moderate to high",
+          "strategy": "Track total part spending and avoid optional customization that removes the sale margin."
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "stage": "Late Game",
+          "boatClass": "Large Center Consoles",
+          "size": "Large offshore-style hulls",
+          "engine": "Multi-outboard",
+          "resale": "High",
+          "strategy": "Enter this tier only when the purchase price and full repair reserve can both be covered."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "stage": "Endgame",
+          "boatClass": "40-Foot Center Console",
+          "size": "40 feet",
+          "engine": "Quad outboards",
+          "resale": "Top-tier",
+          "strategy": "Use established profits and rebirth bonuses to fund the purchase and four-engine workload."
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "flipABoatRepairGuide": {
+      "title": "Flip A Boat Repair Guide",
+      "eyebrow": "Workshop Guide",
+      "subtitle": "Inspect the project, replace every required component, and finish the mechanical condition pass before spending on paint.",
+      "intro": "Flip A Boat uses a part-by-part restoration system. Repair costs are shown when purchasing each required component and increase with the boat's size, condition, and number of outboard engines.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Position the Boat",
+          "action": "Haul the damaged boat with the truck and trailer, park it inside the repair area, and confirm that its repair interactions are available.",
+          "priority": "Required",
+          "tool": "Truck, boat trailer, and workshop interaction",
+          "location": "Trailer connection and workshop parking area",
+          "cost": "No replacement part cost",
+          "check": "The boat can be inspected and its damaged components can be selected."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Complete a Full Inspection",
+          "action": "Move around the hull and helm, interact with highlighted repair points, and record every required replacement before buying parts.",
+          "priority": "Required",
+          "tool": "Boat repair interface and parts inventory",
+          "location": "Hull, deck, stern, helm, and interior",
+          "cost": "Displayed separately for every requested part",
+          "check": "Every highlighted repair point has been reviewed."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Repair the Outboard Engines",
+          "action": "Replace the requested engine components at the stern. Larger boats can carry multiple outboards, with the 40-foot center console using four.",
+          "priority": "Repair first",
+          "tool": "Engine repair interaction and motor parts",
+          "location": "Stern of the boat",
+          "cost": "Scales with the engine setup and number of outboards",
+          "check": "No required engine interaction remains highlighted."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Restore Steering and Gauges",
+          "action": "Replace requested helm components such as the steering wheel, gauges, and connected electrical equipment.",
+          "priority": "Repair before cosmetics",
+          "tool": "Helm and electronics parts",
+          "location": "Center console or driver helm",
+          "cost": "Shown when each helm component is selected",
+          "check": "Steering and instrument repair points are complete."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Finish Hull and Interior Parts",
+          "action": "Complete all remaining structural, deck, seating, and cosmetic component requests shown on the boat.",
+          "priority": "Complete required parts before optional upgrades",
+          "tool": "Hull, deck, and interior replacement parts",
+          "location": "Outer hull, deck, and passenger area",
+          "cost": "Depends on the number and type of damaged components",
+          "check": "No required part remains missing or damaged."
+        },
+        {
+          "title": "Customize the Finished Boat",
+          "action": "Apply paint and optional customization only after all required repair work has been completed.",
+          "priority": "Optional",
+          "tool": "Paint and customization controls",
+          "location": "Hull, deck, and visible accessories",
+          "cost": "Optional spending added to the total project cost",
+          "check": "Customization remains within the expected resale margin."
+        },
+        {
+          "title": "Run the Pre-Sale Check",
+          "action": "Inspect the entire boat again, confirm every highlighted component is complete, and compare the purchase plus repair total with the offered sale value.",
+          "priority": "Required before selling",
+          "tool": "Repair interface and sale interaction",
+          "location": "Entire boat",
+          "cost": "Boat price plus all required and optional part spending",
+          "check": "All repairs are complete and the sale produces a positive margin."
+        }
+      ]
+    },
+    "flipABoatMoneyGuide": {
+      "title": "Flip A Boat Money Guide",
+      "eyebrow": "Profit Strategy",
+      "subtitle": "Build profit by choosing a project you can finish, controlling repair spending, and selling before optional upgrades erase the margin.",
+      "intro": "Flip A Boat is built around a simple business loop: buy a broken boat, haul it home, repair it part by part, and sell it for more than the total project cost. The safest route is to keep a repair reserve, complete required work first, and move into larger hulls only after smaller flips can fund the full purchase-and-repair cycle.",
+      "strategies": [
+        {
+          "title": "Beginner: Protect Starting Cash",
+          "stage": "Beat-up 11-foot starter boat",
+          "strategy": "Choose the smallest project you can buy and fully repair without spending every dollar. Finish the required parts, sell the completed boat, and reinvest the return into the next flip.",
+          "profitRule": "Keep cash available for parts and hauling until the boat is ready to sell.",
+          "avoid": "Do not spend the repair reserve on paint or optional customization before the mechanical work is complete."
+        },
+        {
+          "title": "Mid-Game: Repeat Profitable Sizes",
+          "stage": "Established small and medium boat flips",
+          "strategy": "Repeat boat sizes that you can transport and repair quickly. Track the purchase price and every part cost, then compare that total with the final sale value before moving to a larger project.",
+          "profitRule": "Scale up only when one completed sale can cover the next boat and its repair reserve.",
+          "avoid": "Do not jump to a larger hull when the purchase leaves too little cash to finish it."
+        },
+        {
+          "title": "Experienced: High-Capital Projects",
+          "stage": "Up to a 40-foot center console with quad outboards",
+          "strategy": "Use accumulated cash for larger boats with more parts, more hauling work, and a longer restoration cycle. Control optional spending and complete the functional build before deciding whether extra customization belongs on the resale project or in your personal fleet.",
+          "profitRule": "Measure profit after purchase, parts, and optional upgrades—not from the sale price alone.",
+          "avoid": "Do not let a large unfinished project lock all available cash."
+        },
+        {
+          "title": "Fast Profit Checklist",
+          "stage": "Every flip",
+          "strategy": "Buy below your total budget, reserve money for repairs, haul the boat carefully, complete required systems, limit cosmetic spending, sell, and reinvest.",
+          "profitRule": "Profit equals sale value minus boat purchase and all repair or customization costs.",
+          "avoid": "Do not compare boats by sale value alone; the best flip is the one with a strong margin and a short completion time."
+        }
+      ]
+    },
+    "flipABoatCustomizationAndFleet": {
+      "title": "Flip A Boat Customization and Fleet Guide",
+      "eyebrow": "Customization",
+      "subtitle": "Separate visual changes from functional boat parts so each project has a clear purpose: quick resale, performance build, or permanent fleet boat.",
+      "intro": "Completed boats can be painted, customized, sold, or stored in a personal fleet. Cosmetic work changes the look of a boat, while repaired parts and outboard configurations determine whether the boat is complete and how it behaves on the water. Finish the functional restoration first, then decide how much of the remaining budget belongs in appearance upgrades.",
+      "features": [
+        {
+          "title": "Paint and Exterior Style",
+          "category": "Cosmetic",
+          "effect": "Changes the boat's appearance and lets each restoration use a distinct color scheme.",
+          "bestUse": "Apply paint after required repairs so the project budget remains focused on finishing the boat.",
+          "priority": "Use restrained cosmetic spending on resale boats and save elaborate themes for boats you plan to keep."
+        },
+        {
+          "title": "Visual Customization",
+          "category": "Cosmetic",
+          "effect": "Personalizes the finished boat without replacing the part-by-part repair process.",
+          "bestUse": "Create a consistent hull, trim, and equipment look once the mechanical condition is complete.",
+          "priority": "Treat every visual add-on as an optional cost and compare it with the final sale offer."
+        },
+        {
+          "title": "Outboard Configuration",
+          "category": "Functional",
+          "effect": "Outboards are part of the working boat setup and affect how the boat is configured for the water. Endgame progression reaches a 40-foot center console with quad outboards.",
+          "bestUse": "Complete the required engine and outboard work before spending on appearance upgrades.",
+          "priority": "Functional completion takes priority because an unfinished propulsion setup prevents the boat from becoming a clean flip."
+        },
+        {
+          "title": "Personal Fleet Storage",
+          "category": "Collection",
+          "effect": "Finished boats can be kept and stored instead of sold, allowing players to build a personal fleet.",
+          "bestUse": "Keep distinctive builds, favorite hulls, or boats you want to use on the game's realistic waves and boat physics.",
+          "priority": "A fleet boat is a long-term ownership choice; a resale boat should stay focused on margin and completion speed."
+        }
+      ]
+    },
+    "flipABoatTrucksAndTrailers": {
+      "title": "Flip A Boat Trucks and Trailers Guide",
+      "eyebrow": "Boat Hauling",
+      "subtitle": "A clean haul protects the boat, trailer, and profit margin. Use slow alignment and smooth driving, especially as hull size increases.",
+      "intro": "Truck and trailer hauling connects every stage of a Flip A Boat project. The reliable method is to line up straight, attach through the on-screen interaction, secure the boat before moving, and use small steering inputs around the workshop and launch ramp. Larger boats need more room and slower corrections because the game uses realistic boat and wave physics.",
+      "steps": [
+        {
+          "title": "Choose the Hauling Setup",
+          "instruction": "Use a truck-and-trailer setup that can position the current boat without the hull hanging far off the trailer.",
+          "largeBoatTip": "Give larger hulls more turning room and plan the route before attaching.",
+          "problem": "The boat and trailer do not line up.",
+          "solution": "Move back to level ground, straighten both vehicles, and approach again at low speed."
+        },
+        {
+          "title": "Align the Hitch",
+          "instruction": "Back the truck toward the trailer in a straight line and use small steering corrections until the attachment prompt is available.",
+          "largeBoatTip": "Avoid sharp angles that make the trailer swing before the hitch connects.",
+          "problem": "The hitch will not attach.",
+          "solution": "Pull forward, center the truck with the trailer tongue, and retry from a straighter angle."
+        },
+        {
+          "title": "Load and Secure the Boat",
+          "instruction": "Center the hull on the trailer, move slowly until it is seated, and complete the available securing interaction before towing.",
+          "largeBoatTip": "Check that the bow and stern are centered before moving a long hull.",
+          "problem": "The boat shifts, leans, or falls from the trailer.",
+          "solution": "Stop, unload or reposition the hull, center it again, and secure it before driving."
+        },
+        {
+          "title": "Tow Smoothly",
+          "instruction": "Accelerate gradually, brake early, and take wide turns. Sudden steering inputs can make the trailer swing or destabilize the load.",
+          "largeBoatTip": "Use wider corners and lower speed for heavy or long boats.",
+          "problem": "The trailer fishtails or clips roadside objects.",
+          "solution": "Release the accelerator, straighten the truck, and continue only after the trailer settles."
+        },
+        {
+          "title": "Launch at the Ramp",
+          "instruction": "Reverse down the ramp in a straight line, use shallow corrections, and lower the trailer far enough for the boat to enter the water cleanly.",
+          "largeBoatTip": "Keep the truck aligned with the ramp so the hull does not rotate across the trailer.",
+          "problem": "The trailer catches the ramp or the boat launches sideways.",
+          "solution": "Pull forward, reset the approach, and reverse again with smaller steering movements."
+        },
+        {
+          "title": "Recover and Park",
+          "instruction": "Center the trailer with the boat, load from a straight approach, secure the hull, and park where the workshop interaction is easy to reach.",
+          "largeBoatTip": "Use a slower final approach because long boats need more distance to settle on the trailer.",
+          "problem": "Physics leave the boat or trailer at an unstable angle.",
+          "solution": "Stop forcing the setup, detach when possible, reposition on level ground, and reconnect from a clean alignment."
+        }
+      ]
+    },
+    "flipABoatRebirthsAndUpdates": {
+      "title": "Flip A Boat Rebirths and Updates",
+      "eyebrow": "Progression & Updates",
+      "subtitle": "Use rebirths to turn completed progression into lasting power, then track launch codes, fixes, boats, and feature updates from PolyCore Games.",
+      "intro": "Rebirth is the long-term progression system in Flip A Boat. Complete the target shown in the rebirth interface, confirm the reset, and begin a new flipping cycle with a permanent bonus that makes future progression stronger. Because the game launched with detailed repairs, large-boat progression, fleet storage, hauling, and realistic physics, update notes are especially useful for tracking fixes and balance changes.",
+      "updates": [
+        {
+          "heading": "Rebirth Requirement",
+          "summary": "Complete the progression target displayed in the in-game rebirth interface.",
+          "content": "Rebirth is designed for players who have already built cash through repeated boat flips. Open the rebirth screen, review the current target and bonus, and rebirth after the requirement is complete."
+        },
+        {
+          "heading": "Reset and Permanent Bonus",
+          "summary": "A rebirth starts a new progression cycle and grants a lasting bonus for later runs.",
+          "content": "Use the permanent bonus to move through starter boats faster, rebuild cash, and return to larger projects. Rebirth is most valuable after the current run has reached its required milestone."
+        },
+        {
+          "heading": "July 2026 — Public Launch",
+          "summary": "Flip A Boat launched with the full buy-repair-customize-sell loop.",
+          "content": "Launch features include broken boat purchases, part-by-part repairs, progression from a beat-up 11-foot boat to a 40-foot center console with quad outboards, realistic wave and boat physics, paint and customization, fleet storage, truck-and-trailer hauling, profitable resale, and rebirth bonuses."
+        },
+        {
+          "heading": "July 2026 — Launch Code",
+          "summary": "Code release rewards 10,000 Cash.",
+          "content": "Open Settings from the bottom-left corner, scroll to the Codes section, enter release, and press Enter. The cash provides extra working capital for a boat purchase and required repair parts."
+        },
+        {
+          "heading": "Launch Fixes and Balance Updates",
+          "summary": "PolyCore Games is actively fixing launch bugs and expanding the game.",
+          "content": "The Roblox description identifies the experience as a brand-new release and states that bugs will be fixed as quickly as possible. Check the Roblox experience page, PolyCore Games community, and official Discord for new boats, code drops, repair fixes, hauling changes, economy balance, and upcoming content."
         }
       ]
     }
@@ -749,31 +461,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Flip A Boat on Roblox",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Flip A Boat?",
+        "answer": "Flip A Boat is a Roblox boat restoration and reselling simulator from PolyCore Games. You buy damaged boats, repair every part, customize them, haul projects by truck and trailer, and resell restored boats for Cash and rebirth bonuses."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How do I redeem Flip A Boat codes?",
+        "answer": "Open Flip A Boat on Roblox, tap the gear button in the bottom-left corner, scroll to the Redeem Code section in Settings, enter the code release, and press Enter to claim 10,000 Cash for your first boat and repair parts."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What is the best beginner boat in Flip A Boat?",
+        "answer": "The best Flip A Boat beginner boat is the smallest project you can fully repair while keeping a Cash reserve for parts. Most new players start with the beat-up 11-foot starter boat, finish its required repairs, sell it, and reinvest the profit into the next tier."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How does the Flip A Boat repair system work?",
+        "answer": "Flip A Boat uses a part-by-part repair system. Park the boat in the workshop, inspect every highlighted component, and purchase the exact parts the repair interface requests—outboard engines first, then steering, gauges, hull, and interior—before spending Cash on paint or customization."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How do I make money in Flip A Boat?",
+        "answer": "To make money in Flip A Boat, buy a damaged boat below your total budget, reserve Cash for required parts, finish the functional repairs, limit cosmetic spending, then sell the restored boat for more than the purchase plus repair cost. Repeat profitable boat sizes before scaling up."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What is rebirth in Flip A Boat?",
+        "answer": "Rebirth is Flip A Boat's long-term progression system. Once you complete the target shown in the rebirth interface, you reset the current cycle in exchange for a permanent bonus that makes every future run stronger, letting you rebuild cash and reach larger boats faster."
       }
     ]
   },
@@ -801,125 +513,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "codes": {
+      "title": "Flip A Boat Codes",
+      "description": "Every working Flip A Boat code, the rewards each one gives, and the exact steps to redeem codes in the in-game Settings menu.",
+      "metaTitle": "Flip A Boat Codes - All Working Codes & Rewards (2026)",
+      "metaDescription": "Find every working Flip A Boat code, the rewards for each code, and the redemption steps. Redeem Flip A Boat codes in Settings for free Cash to fund your boat projects.",
+      "categoryLabel": "CODES",
+      "whatIs": "What are Flip A Boat codes?",
+      "whatIsDescription": "Flip A Boat codes are free rewards released by PolyCore Games. Redeeming a code in the Settings menu grants Cash you can spend on a project boat and the replacement parts required to complete its repair.",
+      "why": "Why redeem Flip A Boat codes?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Free Starting Cash",
+        "step1Description": "Codes grant Cash before you ever sell a boat, perfect for your first purchase and repair reserve.",
+        "step2Title": "Fund Repair Parts",
+        "step2Description": "Use code rewards to buy the exact replacement parts the repair interface requests.",
+        "step3Title": "Stay Current",
+        "step3Description": "New codes drop alongside updates, so checking back keeps your Cash reserve topped up."
       },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
+      "featured": "Featured Codes",
+      "all": "All Flip A Boat Codes"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "release": {
+      "title": "Flip A Boat Release",
+      "description": "Flip A Boat launch details, release date, day-one features, and the launch code that gives free Cash to new players.",
+      "metaTitle": "Flip A Boat Release Date, Launch Features & Day-One Code",
+      "metaDescription": "Flip A Boat launch information including the release date, day-one gameplay features, and the launch code release that grants 10,000 Cash to new Roblox players.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is the Flip A Boat release?",
+      "whatIsDescription": "The Flip A Boat release is the public Roblox launch of PolyCore Games' boat restoration and reselling simulator, bringing the full buy-repair-customize-sell loop, realistic physics, and rebirth progression to players.",
+      "why": "Why follow the Flip A Boat release?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Claim the Launch Code",
+        "step1Description": "New players can redeem the release code for 10,000 Cash at launch.",
+        "step2Title": "Learn Day-One Features",
+        "step2Description": "Understand repairs, hauling, fleet storage, and rebirth before you spend your first Cash.",
+        "step3Title": "Track Patch Notes",
+        "step3Description": "PolyCore Games ships launch fixes fast, so release notes matter from day one."
       },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "featured": "Featured Release Info",
+      "all": "All Release Articles"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "guide": {
+      "title": "Flip A Boat Guides",
+      "description": "Complete Flip A Boat guides from beginner basics to advanced money-making, hauling, and rebirth strategies.",
+      "metaTitle": "Flip A Boat Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Flip A Boat guides covering beginner tips, the repair loop, hauling, money-making, rebirth, and advanced strategies for flipping boats on Roblox.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are Flip A Boat guides?",
+      "whatIsDescription": "Flip A Boat guides walk you through the core gameplay loop—buying a damaged boat, hauling it to the workshop, repairing every required part, customizing the build, and reselling it for profit and rebirth progress.",
+      "why": "Why read Flip A Boat guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Learn the Core Loop",
+        "step1Description": "Master buying, hauling, repairing, and selling before spending your starting Cash.",
+        "step2Title": "Progress Faster",
+        "step2Description": "Follow the standard upgrade path from the 11-foot starter to the 40-foot center console.",
+        "step3Title": "Avoid Costly Mistakes",
+        "step3Description": "Protect your repair reserve and stop wasting Cash on the wrong upgrades."
       },
-      "featured": "Featured & Essential",
-      "all": "All Items"
+      "featured": "Featured Guides",
+      "all": "All Flip A Boat Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "boats": {
+      "title": "Flip A Boat Boats",
+      "description": "Every Flip A Boat boat tier, from the 11-foot starter project to the 40-foot quad-outboard center console, with size, engine setup, and resale value.",
+      "metaTitle": "Flip A Boat Boats - Boat Tiers, Sizes & Resale Values",
+      "metaDescription": "Browse every Flip A Boat boat tier including the 11-foot starter, medium project boats, and the 40-foot quad-outboard center console, with engine setups and resale potential.",
+      "categoryLabel": "BOATS",
+      "whatIs": "What are Flip A Boat boats?",
+      "whatIsDescription": "Flip A Boat boats range from a beat-up 11-foot starter project to large offshore center consoles. Each tier scales in purchase price, repair workload, engine count, and resale value as you progress.",
+      "why": "Why compare Flip A Boat boats?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Pick the Right Project",
+        "step1Description": "Match boat size to the Cash and repair reserve you actually have.",
+        "step2Title": "Plan Engine Setups",
+        "step2Description": "Move from single outboards up to quad outboards on the largest hulls.",
+        "step3Title": "Maximize Resale",
+        "step3Description": "Choose tiers whose resale potential justifies the repair workload."
       },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "featured": "Featured Boats",
+      "all": "All Flip A Boat Boats"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "repairs": {
+      "title": "Flip A Boat Repairs",
+      "description": "How the Flip A Boat part-by-part repair system works, which components to fix first, and the pre-sale checks to run before selling.",
+      "metaTitle": "Flip A Boat Repairs - Part-by-Part Repair Order & Costs",
+      "metaDescription": "Master the Flip A Boat repair system with the correct repair order, component locations, part costs, and pre-sale checks for outboards, steering, gauges, hull, and interior.",
+      "categoryLabel": "REPAIRS",
+      "whatIs": "What is the Flip A Boat repair system?",
+      "whatIsDescription": "Flip A Boat repairs are a part-by-part restoration process. Each highlighted component on the hull, helm, and engine has its own replacement cost, and required mechanical work must be finished before cosmetic upgrades.",
+      "why": "Why follow a Flip A Boat repair order?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Finish Required Parts First",
+        "step1Description": "Repair outboards, steering, gauges, and hull before paint or accessories.",
+        "step2Title": "Control Repair Costs",
+        "step2Description": "Buy only the exact parts the repair interface requests.",
+        "step3Title": "Pass the Pre-Sale Check",
+        "step3Description": "Confirm every component is complete so the sale produces a positive margin."
       },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "featured": "Featured Repair Guides",
+      "all": "All Repair Guides"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "money": {
+      "title": "Flip A Boat Money",
+      "description": "The best ways to earn Cash in Flip A Boat by buying low, controlling repair costs, and selling restored boats at a profit.",
+      "metaTitle": "Flip A Boat Money Guide - Best Boats to Flip for Profit",
+      "metaDescription": "Learn how to make money in Flip A Boat with beginner, mid-game, and experienced strategies for buying low, controlling repair costs, and selling restored boats for profit.",
+      "categoryLabel": "MONEY",
+      "whatIs": "What is the Flip A Boat money system?",
+      "whatIsDescription": "The Flip A Boat money loop is simple: buy a broken boat, repair it part by part, and sell it for more than the total project cost. Profit comes from keeping a repair reserve, finishing required work, and limiting optional spending.",
+      "why": "Why use a Flip A Boat money strategy?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Protect Your Cash",
+        "step1Description": "Keep a repair reserve so you can always finish the project you buy.",
+        "step2Title": "Repeat Profitable Sizes",
+        "step2Description": "Scale up only when one sale can cover the next boat and its parts.",
+        "step3Title": "Measure Real Profit",
+        "step3Description": "Calculate profit after purchase, parts, and optional upgrades."
       },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "featured": "Featured Money Guides",
+      "all": "All Money Guides"
+    },
+    "transport": {
+      "title": "Flip A Boat Transport",
+      "description": "How to load, secure, tow, launch, and recover boats with trucks and trailers in Flip A Boat, with hauling tips for every boat size.",
+      "metaTitle": "Flip A Boat Trucks & Trailers - Load, Tow, Launch & Recover",
+      "metaDescription": "Master Flip A Boat truck and trailer hauling with steps for loading, securing, towing, launching, and recovering boats, plus tips for large hulls and common physics problems.",
+      "categoryLabel": "TRANSPORT",
+      "whatIs": "What is Flip A Boat transport?",
+      "whatIsDescription": "Flip A Boat transport is the truck-and-trailer hauling that moves project boats between the marketplace, workshop, and launch ramp. Realistic physics mean slow alignment and smooth driving protect the boat, trailer, and your profit margin.",
+      "why": "Why learn Flip A Boat hauling?",
+      "whySteps": {
+        "step1Title": "Line Up Straight",
+        "step1Description": "Back toward the trailer in a straight line and use small steering inputs.",
+        "step2Title": "Secure Before Moving",
+        "step2Description": "Center the hull and complete the securing interaction before towing.",
+        "step3Title": "Drive Smoothly",
+        "step3Description": "Accelerate gradually, brake early, and take wide turns to avoid fishtailing."
+      },
+      "featured": "Featured Transport Guides",
+      "all": "All Transport Guides"
     }
   }
 }

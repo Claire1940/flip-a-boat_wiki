@@ -27,6 +27,14 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Star: LucideIcons.Star,
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
+  // Flip A Boat 模块图标
+  Ticket: LucideIcons.Ticket,
+  Ship: LucideIcons.Ship,
+  Wrench: LucideIcons.Wrench,
+  Coins: LucideIcons.Coins,
+  Palette: LucideIcons.Palette,
+  Truck: LucideIcons.Truck,
+  RotateCcw: LucideIcons.RotateCcw,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
