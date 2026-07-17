@@ -85,7 +85,7 @@ export default function HomePageClient({
 }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://flip-a-boat.wiki";
 
   // Structured data
   const structuredData = {
@@ -95,15 +95,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "Flip A Boat Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Complete Flip A Boat Wiki covering working codes, boat repairs, parts, upgrades, trailers, money farming, rebirths, and the best boats to flip on Roblox.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: "Flip A Boat - Roblox Boat Repair and Flipping Simulator",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +114,11 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Flip A Boat Wiki",
+        alternateName: "Flip A Boat",
         url: siteUrl,
         description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Complete Flip A Boat Wiki resource hub for codes, boats, repairs, parts, money guides, rebirths, and trailers",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -130,21 +130,21 @@ export default function HomePageClient({
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: "Flip A Boat Wiki - Roblox Boat Repair and Flipping Simulator",
         },
         sameAs: [
           "https://www.roblox.com/games/82018429695568/Flip-A-Boat",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://www.roblox.com/communities/32072807/PolyCore-Games",
+          "https://discord.com/invite/flipaboat",
+          "https://www.youtube.com/@pol12415",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
-        gamePlatform: ["PC", "Steam"],
+        name: "Flip A Boat",
+        gamePlatform: ["Roblox"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Simulation", "Tycoon", "Sandbox"],
         numberOfPlayers: {
           minValue: 1,
           maxValue: 1,
@@ -158,13 +158,13 @@ export default function HomePageClient({
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "Flip A Boat Game Trailer",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "Official Flip A Boat trailer from PolyCore Games showing boat repair, customization, hauling by truck and trailer, and reselling gameplay on Roblox.",
+        uploadDate: "2025-06-01",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/Ahns-1if_4I",
+        url: "https://www.youtube.com/watch?v=Ahns-1if_4I",
       },
     ],
   };
@@ -1325,7 +1325,7 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://discord.com/invite/flipaboat"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1339,7 +1339,7 @@ export default function HomePageClient({
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    Steam Community <ExternalLink className="w-3 h-3" />
+                    Roblox Game <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               </div>
@@ -1400,7 +1400,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://discord.com/invite/flipaboat"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1410,7 +1410,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
+                    href="https://www.youtube.com/@pol12415"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1420,7 +1420,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/3495730"
+                    href="https://www.roblox.com/communities/32072807/PolyCore-Games"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

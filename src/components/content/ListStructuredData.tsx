@@ -7,7 +7,7 @@ interface ListStructuredDataProps {
 }
 
 export function ListStructuredData({ contentType, locale, items }: ListStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://flip-a-boat.wiki'
 	const listUrl =
 		locale === 'en' ? `${siteUrl}/${contentType}` : `${siteUrl}/${locale}/${contentType}`
 

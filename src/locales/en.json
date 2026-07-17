@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Flip A Boat Wiki - Codes, Boats, Repairs & Money",
+      "description": "Flip A Boat Wiki covers working codes, boat repairs, parts, upgrades, painting, trailers, cash farming, rebirths, and the best boats to buy and flip.",
+      "keywords": "Flip A Boat, Roblox, codes, boats, repairs, parts, upgrades, cash, rebirth, trailers",
+      "ogTitle": "Flip A Boat Wiki - Codes, Boats, Repairs & Money",
+      "ogDescription": "Flip A Boat Wiki covers working codes, boat repairs, parts, upgrades, painting, trailers, cash farming, rebirths, and the best boats to buy and flip.",
+      "twitterTitle": "Flip A Boat Wiki - Codes, Boats, Repairs & Money",
+      "twitterDescription": "Flip A Boat Wiki covers working codes, boat repairs, parts, money farming, rebirths, and the best boats to flip on Roblox."
     }
   },
   "nav": {
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Flip Your First Boat?",
+    "description": "Join the Flip A Boat community on Discord for codes, updates, repair tips, and money-making guides!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Flip A Boat Wiki",
+    "description": "Your complete resource hub for Flip A Boat codes, boats, repairs, parts, money guides, rebirths, and trailers.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "twitter": "YouTube",
+    "steamCommunity": "Roblox Community",
+    "steamStore": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Flip A Boat Wiki. Not affiliated with PolyCore Games or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
