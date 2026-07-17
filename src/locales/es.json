@@ -1,1 +1,665 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Flip A Boat Wiki - Códigos, barcos, reparaciones y dinero",
+      "description": "Flip A Boat Wiki cubre códigos activos, reparaciones de barcos, piezas, mejoras, pintura, remolques, farmeo de Cash, rebirths y los mejores barcos para comprar y vender.",
+      "keywords": "Flip A Boat, Roblox, códigos, barcos, reparaciones, piezas, mejoras, Cash, rebirth, remolques",
+      "ogTitle": "Flip A Boat Wiki - Códigos, barcos, reparaciones y dinero",
+      "ogDescription": "Flip A Boat Wiki cubre códigos activos, reparaciones de barcos, piezas, mejoras, pintura, remolques, farmeo de Cash, rebirths y los mejores barcos para comprar y vender.",
+      "twitterTitle": "Flip A Boat Wiki - Códigos, barcos, reparaciones y dinero",
+      "twitterDescription": "Flip A Boat Wiki cubre códigos activos, reparaciones de barcos, piezas, farmeo de dinero, rebirths y los mejores barcos para revender en Roblox."
+    }
+  },
+  "nav": {
+    "codes": "Códigos",
+    "release": "Lanzamiento",
+    "guide": "Guía",
+    "boats": "Barcos",
+    "repairs": "Reparaciones",
+    "money": "Dinero",
+    "transport": "Transporte"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Próximamente más artículos"
+  },
+  "hero": {
+    "badge": "Simulador realista de compra y venta de barcos",
+    "title": "Flip A Boat Wiki",
+    "description": "Compra barcos dañados, repara cada pieza, personaliza tu flota, transporta barcos en camión y remolque, y véndelos con inteligencia para obtener beneficios y bonos de rebirth.",
+    "getFreeCodesCTA": "Consigue códigos gratis",
+    "playOnRobloxCTA": "Obtén códigos gratis",
+    "stats": {
+      "stat1": {
+        "value": "Juega en Roblox",
+        "label": "49.1K+"
+      },
+      "stat2": {
+        "value": "Visitas totales",
+        "label": "2K+"
+      },
+      "stat3": {
+        "value": "Favoritos",
+        "label": "1"
+      },
+      "stat4": {
+        "value": "Código activo",
+        "label": "11–40 ft"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Progresión de barcos",
+    "description": "Compra botes dañados, repara cada pieza averiada, pinta y personaliza tu flota, transporta proyectos en camión y remolque, y revende botes restaurados por Cash y bonos de renacimiento en Roblox."
+  },
+  "tools": {
+    "title": "Compra barcos averiados, repara cada pieza dañada, pinta y personaliza tu flota, transporta proyectos en camión y remolque, y revende barcos restaurados para ganar Cash y bonos de rebirth en Roblox.",
+    "titleHighlight": "Flip A Boat",
+    "subtitle": "Todo lo que necesitas para comprar, reparar, personalizar, transportar y revender barcos para obtener ganancias en Flip A Boat.",
+    "cards": [
+      {
+        "icon": "Todo lo que necesitas para comprar, reparar, personalizar, transportar y vender barcos para obtener ganancias en Flip A Boat.",
+        "title": "Ticket",
+        "description": "Códigos de Flip A Boat"
+      },
+      {
+        "icon": "Códigos activos, recompensas y pasos para canjearlos",
+        "title": "BookOpen",
+        "description": "Guía para principiantes de Flip A Boat"
+      },
+      {
+        "icon": "Compra, transporta, repara y vende tu primer proyecto de barco",
+        "title": "Barcos y progresión de Flip A Boat",
+        "description": "Barcos y progresión de Flip A Boat"
+      },
+      {
+        "icon": "Niveles de barcos desde uno inicial de 11 pies hasta una consola de 40 pies",
+        "title": "Wrench",
+        "description": "Guía de reparación de Flip A Boat"
+      },
+      {
+        "icon": "Reparaciones pieza por pieza y revisiones de estado antes de la venta",
+        "title": "Coins",
+        "description": "Guía de dinero de Flip A Boat"
+      },
+      {
+        "icon": "Paleta",
+        "title": "Personalización y flota de Flip A Boat",
+        "description": "Pintura, configuraciones de motores fueraborda y almacenamiento de flota personal"
+      },
+      {
+        "icon": "Camión",
+        "title": "Camiones y remolques de Flip A Boat",
+        "description": "Carga, remolca, bota y recupera barcos de forma segura"
+      },
+      {
+        "icon": "Rotar antihorario",
+        "title": "Renacimientos y actualizaciones de Flip A Boat",
+        "description": "Bonificaciones de renacimiento y los últimos cambios de PolyCore Games"
+      }
+    ]
+  },
+  "modules": {
+    "flipABoatCodes": {
+      "title": "Códigos de Flip A Boat",
+      "eyebrow": "Cash gratis",
+      "subtitle": "Canjea el último código de Flip A Boat para obtener Cash gratis con el que financiar la compra de tu primer barco y las reparaciones necesarias.",
+      "intro": "Los códigos de Flip A Boat se canjean a través del menú de Configuración. Introduce los códigos exactamente como se muestran y usa las recompensas de Cash como reserva de reparación en lugar de gastarlo todo en un barco de proyecto más grande.",
+      "codes": [
+        {
+          "code": "release",
+          "status": "Activo",
+          "reward": "10.000 Cash",
+          "verified": "2026-07-17",
+          "note": "Usa la recompensa para un barco manejable y las piezas de repuesto necesarias para completar su reparación."
+        }
+      ],
+      "expired": {
+        "status": "Expirado",
+        "message": "Actualmente no hay ningún código expirado de Flip A Boat en la lista.",
+        "verified": "2026-07-17"
+      },
+      "redeemTitle": "Cómo canjear códigos de Flip A Boat",
+      "redeemSteps": [
+        "Inicia Flip A Boat a través de su página oficial de Roblox.",
+        "Selecciona el botón de engranaje en la esquina inferior izquierda.",
+        "Desplázate hasta la sección Canjear código en Configuración.",
+        "Introduce release en la casilla de código.",
+        "Presiona Enter o Return para reclamar 10.000 Cash."
+      ]
+    },
+    "flipABoatBeginnerGuide": {
+      "title": "Guía para principiantes de Flip A Boat",
+      "eyebrow": "Empieza a restaurar",
+      "subtitle": "Compra un barco dañado, llévalo a tu espacio de trabajo, repáralo pieza por pieza y véndelo por más Cash.",
+      "intro": "El ciclo principal de progresión comienza con un bote destartalado de 11 pies y eventualmente llega a grandes botes de consola central de 40 pies con cuatro motores fueraborda. Los principiantes exitosos protegen su presupuesto de reparación, completan primero el trabajo mecánico requerido y reinvierten cada venta en el siguiente proyecto.",
+      "steps": [
+        {
+          "title": "Reclama tu Cash de lanzamiento",
+          "description": "Canjea el código release por 10,000 Cash antes de comprar tu primer proyecto.",
+          "tip": "Mantén la mayor parte de la recompensa disponible para piezas de repuesto.",
+          "mistake": "Gastar toda la recompensa en el precio de compra y no tener Cash para las reparaciones."
+        },
+        {
+          "title": "Compra un bote que puedas terminar",
+          "description": "Comienza con el nivel de progresión más bajo, incluyendo el proyecto inicial de 11 pies, y revisa sus componentes dañados antes de comprometerte.",
+          "tip": "Elige un bote que deje una reserva clara para reparaciones después de la compra.",
+          "mistake": "Comprar el casco más grande que puedas permitirte en lugar del bote que puedas reparar por completo."
+        },
+        {
+          "title": "Llévalo al taller",
+          "description": "Usa la camioneta y el remolque para botes para recoger el proyecto, alinea el remolque con cuidado y transporta el bote a tu área de reparación.",
+          "tip": "Usa el equipo de transporte ya disponible antes de gastar en mejoras opcionales.",
+          "mistake": "Acercarse al remolque demasiado rápido y fallar repetidamente en la posición de enganche."
+        },
+        {
+          "title": "Inspecciona cada pieza dañada",
+          "description": "Abre las interacciones de reparación del bote y revisa el casco, el motor fueraborda, los controles de dirección, los indicadores y otros componentes resaltados.",
+          "tip": "Compra solo las piezas exactas solicitadas por la interfaz de reparación.",
+          "mistake": "Comprar piezas no relacionadas o artículos estéticos antes de completar la inspección."
+        },
+        {
+          "title": "Repara antes de personalizar",
+          "description": "Completa primero las reparaciones mecánicas y estructurales obligatorias. La pintura y la personalización opcional deben venir después de terminar el trabajo de condición requerido del bote.",
+          "tip": "Prioriza motores, dirección, indicadores, electrónica y componentes obligatorios del casco.",
+          "mistake": "Usar el Cash inicial en pintura o accesorios mientras los sistemas importantes siguen dañados."
+        },
+        {
+          "title": "Vende y reinvierte",
+          "description": "Completa una verificación de condición final, vende el bote restaurado por Cash y usa las ganancias para comprar un proyecto más grande. Los botes también se pueden personalizar y guardar como parte de tu flota.",
+          "tip": "Sube un nivel de progresión a la vez y mantén una reserva de reparación para cada nuevo proyecto.",
+          "mistake": "Tratar el precio de venta como ganancia pura sin restar los costos del bote y de las piezas."
+        }
+      ]
+    },
+    "flipABoatBoatsAndProgression": {
+      "title": "Flip A Boat: Botes y Progresión",
+      "eyebrow": "Progresión de botes",
+      "subtitle": "Progresa desde un proyecto inicial de 11 pies hasta una consola central de 40 pies impulsada por cuatro motores fueraborda.",
+      "intro": "Los precios de compra de los botes se muestran en el mercado en vivo y escalan según el tamaño de la embarcación, su estado y la carga de trabajo de reparación. Los proyectos más grandes requieren más capital de trabajo y piezas, pero también ofrecen un mayor potencial de reventa y valor de progresión.",
+      "tableHeaders": {
+        "stage": "Etapa",
+        "boatClass": "Clase de barco",
+        "size": "Tamaño",
+        "engine": "Configuración del motor",
+        "resale": "Reventa",
+        "strategy": "Mejor estrategia"
+      },
+      "boats": [
+        {
+          "stage": "Inicial",
+          "boatClass": "Barco de proyecto de 11 pies",
+          "size": "11 pies",
+          "engine": "Motor fuera de borda para barcos pequeños",
+          "resale": "Nivel de entrada",
+          "strategy": "Completa varias restauraciones de bajo costo y conserva el Cash para las piezas necesarias."
+        },
+        {
+          "stage": "Etapa inicial",
+          "boatClass": "Barcos de proyecto pequeños",
+          "size": "Por encima del nivel inicial de 11 pies",
+          "engine": "Un solo motor fuera de borda",
+          "resale": "De baja a moderada",
+          "strategy": "Elige proyectos con listas de reparación cortas y repite el ciclo completo de compra-reparación-venta."
+        },
+        {
+          "stage": "Etapa intermedia",
+          "boatClass": "Barcos de proyecto medianos",
+          "size": "Gama de cascos de tamaño medio",
+          "engine": "Motores fuera de borda más grandes o múltiples",
+          "resale": "De moderada a alta",
+          "strategy": "Controla el gasto total en piezas y evita personalizaciones opcionales que eliminen el margen de venta."
+        },
+        {
+          "stage": "Etapa avanzada",
+          "boatClass": "Consolas centrales grandes",
+          "size": "Cascos grandes de estilo offshore",
+          "engine": "Multimotor fuera de borda",
+          "resale": "Alta",
+          "strategy": "Accede a este nivel solo cuando puedas cubrir tanto el precio de compra como la reserva para la reparación completa."
+        },
+        {
+          "stage": "Etapa final",
+          "boatClass": "Consola central de 40 pies",
+          "size": "40 pies",
+          "engine": "Motores fueraborda cuádruples",
+          "resale": "De primer nivel",
+          "strategy": "Usa las ganancias acumuladas y las bonificaciones de renacimiento para financiar la compra y el trabajo de cuatro motores."
+        }
+      ]
+    },
+    "flipABoatRepairGuide": {
+      "title": "Guía de reparación de Flip A Boat",
+      "eyebrow": "Guía del taller",
+      "subtitle": "Inspecciona el proyecto, reemplaza cada componente requerido y completa la fase de estado mecánico antes de gastar en pintura.",
+      "intro": "Flip A Boat utiliza un sistema de restauración pieza por pieza. Los costos de reparación se muestran al comprar cada componente requerido y aumentan según el tamaño del barco, su estado y la cantidad de motores fueraborda.",
+      "steps": [
+        {
+          "title": "Posiciona el barco",
+          "action": "Transporta el barco dañado con la camioneta y el remolque, estaciónalo dentro del área de reparación y confirma que sus interacciones de reparación estén disponibles.",
+          "priority": "Requerido",
+          "tool": "Camioneta, remolque para barcos e interacción con el taller",
+          "location": "Conexión del remolque y área de estacionamiento del taller",
+          "cost": "Sin costo de piezas de repuesto",
+          "check": "Se puede inspeccionar el barco y seleccionar sus componentes dañados."
+        },
+        {
+          "title": "Completa una inspección completa",
+          "action": "Muévete alrededor del casco y el timón, interactúa con los puntos de reparación resaltados y registra cada reemplazo requerido antes de comprar piezas.",
+          "priority": "Requerido",
+          "tool": "Interfaz de reparación de barcos e inventario de piezas",
+          "location": "Casco, cubierta, popa, timón e interior",
+          "cost": "Se muestra por separado para cada pieza solicitada",
+          "check": "Se han revisado todos los puntos de reparación resaltados."
+        },
+        {
+          "title": "Repara los motores fueraborda",
+          "action": "Reemplaza los componentes del motor solicitados en la popa. Los barcos más grandes pueden llevar múltiples motores fueraborda; la consola central de 40 pies utiliza cuatro.",
+          "priority": "Reparar primero",
+          "tool": "Interacción de reparación del motor y piezas del motor",
+          "location": "Popa del barco",
+          "cost": "Varía según la configuración del motor y la cantidad de motores fueraborda",
+          "check": "Ya no queda resaltada ninguna interacción requerida del motor."
+        },
+        {
+          "title": "Restaurar dirección e indicadores",
+          "action": "Reemplaza los componentes del timón solicitados, como el volante, los indicadores y el equipo eléctrico conectado.",
+          "priority": "Reparar antes de la estética",
+          "tool": "Piezas del timón y electrónica",
+          "location": "Consola central o puesto de mando",
+          "cost": "Se muestra al seleccionar cada componente del timón",
+          "check": "Los puntos de reparación de la dirección y los instrumentos están completos."
+        },
+        {
+          "title": "Terminar el casco y las piezas del interior",
+          "action": "Completa todas las solicitudes restantes de componentes estructurales, de cubierta, de asientos y estéticos que se muestran en el barco.",
+          "priority": "Completa las piezas requeridas antes de las mejoras opcionales",
+          "tool": "Piezas de repuesto del casco, la cubierta y el interior",
+          "location": "Casco exterior, cubierta y zona de pasajeros",
+          "cost": "Depende de la cantidad y tipo de componentes dañados",
+          "check": "No queda ninguna pieza requerida faltante o dañada."
+        },
+        {
+          "title": "Personalizar el barco terminado",
+          "action": "Aplica pintura y personalización opcional solo después de haber completado todos los trabajos de reparación requeridos.",
+          "priority": "Opcional",
+          "tool": "Controles de pintura y personalización",
+          "location": "Casco, cubierta y accesorios visibles",
+          "cost": "Gastos opcionales añadidos al costo total del proyecto",
+          "check": "La personalización se mantiene dentro del margen de reventa esperado."
+        },
+        {
+          "title": "Realizar el chequeo de preventa",
+          "action": "Inspecciona todo el barco de nuevo, confirma que cada componente resaltado esté completo y compara el total de compra más reparación con el valor de venta ofrecido.",
+          "priority": "Requerido antes de vender",
+          "tool": "Interfaz de reparación e interacción de venta",
+          "location": "Todo el barco",
+          "cost": "Precio del barco más todos los gastos en piezas requeridas y opcionales",
+          "check": "Todas las reparaciones están completas y la venta produce un margen positivo."
+        }
+      ]
+    },
+    "flipABoatMoneyGuide": {
+      "title": "Guía de dinero de Flip A Boat",
+      "eyebrow": "Estrategia de ganancias",
+      "subtitle": "Genera ganancias eligiendo un proyecto que puedas terminar, controlando los gastos de reparación y vendiendo antes de que las mejoras opcionales eliminen el margen.",
+      "intro": "Genera ganancias eligiendo un proyecto que puedas terminar, controlando el gasto en reparaciones y vendiendo antes de que las mejoras opcionales agoten el margen.",
+      "strategies": [
+        {
+          "title": "Flip A Boat se basa en un ciclo de negocios sencillo: compra un barco averiado, llévalo a casa, repáralo pieza por pieza y véndelo por más del costo total del proyecto. La ruta más segura es mantener una reserva para reparaciones, completar primero el trabajo obligatorio y pasar a cascos más grandes solo cuando las restauraciones más pequeñas puedan financiar el ciclo completo de compra y reparación.",
+          "stage": "Principiante: Protege el Cash inicial",
+          "strategy": "Elige el proyecto más pequeño que puedas comprar y reparar por completo sin gastar todo tu dinero. Termina las piezas requeridas, vende el bote terminado y reinvierte las ganancias en la siguiente restauración.",
+          "profitRule": "Elige el proyecto más pequeño que puedas comprar y reparar por completo sin gastar cada dólar. Termina las piezas requeridas, vende el barco terminado y reinvierte las ganancias en la siguiente restauración.",
+          "avoid": "Mantén Cash disponible para piezas y transporte hasta que el barco esté listo para vender."
+        },
+        {
+          "title": "No gastes la reserva de reparación en pintura o personalización opcional antes de completar el trabajo mecánico.",
+          "stage": "Mitad del juego: Repite tamaños rentables",
+          "strategy": "Restauraciones de barcos pequeños y medianos consolidadas",
+          "profitRule": "Repite tamaños de barcos que puedas transportar y reparar rápidamente. Lleva un registro del precio de compra y del costo de cada pieza, luego compara ese total con el valor de venta final antes de pasar a un proyecto más grande.",
+          "avoid": "Escala solo cuando una venta completada pueda cubrir el siguiente barco y su reserva de reparación."
+        },
+        {
+          "title": "No saltes a un casco más grande si la compra te deja con muy poco Cash para terminarlo.",
+          "stage": "Experimentado: Proyectos de gran capital",
+          "strategy": "Hasta una consola central de 40 pies con motores fueraborda cuádruples",
+          "profitRule": "Usa el Cash acumulado para barcos más grandes con más piezas, más trabajo de transporte y un ciclo de restauración más largo. Controla el gasto opcional y completa la construcción funcional antes de decidir si la personalización extra pertenece al proyecto de reventa o a tu flota personal.",
+          "avoid": "Mide la ganancia después de la compra, las piezas y las mejoras opcionales, no solo por el precio de venta."
+        },
+        {
+          "title": "No dejes que un gran proyecto sin terminar bloquee todo el Cash disponible.",
+          "stage": "Lista de verificación para ganancias rápidas",
+          "strategy": "Compra por debajo de tu presupuesto total, reserva dinero para reparaciones, transporta el bote con cuidado, completa los sistemas requeridos, limita los gastos estéticos, vende y reinvierte.",
+          "profitRule": "Compra por debajo de tu presupuesto total, reserva dinero para reparaciones, transporta el barco con cuidado, completa los sistemas requeridos, limita el gasto estético, vende y reinvierte.",
+          "avoid": "La ganancia es igual al valor de venta menos la compra del barco y todos los costos de reparación o personalización."
+        }
+      ]
+    },
+    "flipABoatCustomizationAndFleet": {
+      "title": "No compares barcos solo por su valor de venta; la mejor restauración es la que tiene un margen sólido y un tiempo de finalización corto.",
+      "eyebrow": "Guía de flota y personalización de Flip A Boat",
+      "subtitle": "Separa los cambios visuales de las piezas funcionales del bote para que cada proyecto tenga un propósito claro: reventa rápida, configuración de rendimiento o bote permanente para la flota.",
+      "intro": "Separa los cambios visuales de las piezas funcionales del barco para que cada proyecto tenga un propósito claro: reventa rápida, construcción de alto rendimiento o barco de flota permanente.",
+      "features": [
+        {
+          "title": "Los barcos terminados se pueden pintar, personalizar, vender o guardar en una flota personal. El trabajo estético cambia el aspecto del barco, mientras que las piezas reparadas y las configuraciones de los motores fueraborda determinan si el barco está completo y cómo se comporta en el agua. Termina primero la restauración funcional y luego decide qué parte del presupuesto restante se destinará a mejoras estéticas.",
+          "category": "Pintura y estilo exterior",
+          "effect": "Cambia la apariencia del bote y permite que cada restauración use un esquema de colores distinto.",
+          "bestUse": "Cambia la apariencia del barco y permite que cada restauración use un esquema de colores distinto.",
+          "priority": "Usa un gasto cosmético moderado en los barcos de reventa y reserva los temas elaborados para los barcos que planeas quedarte."
+        },
+        {
+          "title": "Usa un gasto cosmético moderado en los botes para reventa y reserva los temas elaborados para los botes que planeas conservar.",
+          "category": "Personalización visual",
+          "effect": "Personaliza el barco terminado sin reemplazar el proceso de reparación pieza por pieza.",
+          "bestUse": "Personaliza el bote terminado sin reemplazar el proceso de reparación pieza por pieza.",
+          "priority": "Crea una apariencia consistente para el casco, el acabado y el equipo una vez completada la condición mecánica."
+        },
+        {
+          "title": "Trata cada complemento visual como un costo opcional y compáralo con la oferta de venta final.",
+          "category": "Configuración de motores fuera de borda",
+          "effect": "Los motores fueraborda forman parte de la configuración funcional del barco y afectan a cómo se configura para el agua. El progreso en la fase final del juego llega hasta una consola central de 40 pies con motores fueraborda cuádruples.",
+          "bestUse": "Los motores fuera de borda son parte de la configuración funcional del bote y afectan cómo se prepara para el agua. El progreso final llega a una consola central de 40 pies con cuatro motores fuera de borda.",
+          "priority": "Completa el trabajo necesario en el motor y el fuera de borda antes de gastar en mejoras estéticas."
+        },
+        {
+          "title": "La finalización funcional tiene prioridad porque un sistema de propulsión incompleto impide que el bote se convierta en una reventa limpia.",
+          "category": "Almacenamiento de flota personal",
+          "effect": "Los barcos terminados se pueden conservar y almacenar en lugar de venderse, lo que permite a los jugadores crear una flota personal.",
+          "bestUse": "Los botes terminados pueden conservarse y almacenarse en lugar de venderse, permitiendo a los jugadores construir una flota personal.",
+          "priority": "Conserva diseños distintivos, cascos favoritos o botes que quieras usar con las físicas de botes y olas realistas del juego."
+        }
+      ]
+    },
+    "flipABoatTrucksAndTrailers": {
+      "title": "Un bote de flota es una elección de propiedad a largo plazo; un bote para reventa debe centrarse en el margen y la velocidad de finalización.",
+      "eyebrow": "Guía de camiones y remolques de Flip A Boat",
+      "subtitle": "Un transporte limpio protege el barco, el remolque y el margen de ganancia. Usa una alineación lenta y una conducción suave, especialmente a medida que aumenta el tamaño del casco.",
+      "intro": "Un transporte limpio protege el bote, el remolque y el margen de beneficio. Usa una alineación lenta y una conducción suave, especialmente a medida que aumenta el tamaño del casco.",
+      "steps": [
+        {
+          "title": "El transporte con camión y remolque conecta cada etapa de un proyecto de Flip A Boat. El método confiable es alinearse recto, enganchar mediante la interacción en pantalla, asegurar el bote antes de moverse y realizar pequeños ajustes de dirección cerca del taller y la rampa de lanzamiento. Los botes más grandes necesitan más espacio y correcciones más lentas porque el juego usa físicas de botes y olas realistas.",
+          "instruction": "Elige la configuración de transporte",
+          "largeBoatTip": "Usa una configuración de camión y remolque que pueda posicionar el bote actual sin que el casco sobresalga demasiado del remolque.",
+          "problem": "Dale a los cascos más grandes más espacio para girar y planifica la ruta antes de enganchar.",
+          "solution": "El bote y el remolque no están alineados."
+        },
+        {
+          "title": "Regresa a terreno nivelado, endereza ambos vehículos y acércate de nuevo a baja velocidad.",
+          "instruction": "Retrocede el camión hacia el remolque en línea recta y realiza pequeñas correcciones de dirección hasta que aparezca el aviso de enganche.",
+          "largeBoatTip": "Retrocede el camión hacia el remolque en línea recta y usa pequeñas correcciones de dirección hasta que aparezca el aviso de enganche.",
+          "problem": "Evita ángulos cerrados que hagan que el remolque gire bruscamente antes de que el enganche conecte.",
+          "solution": "El enganche no se conecta."
+        },
+        {
+          "title": "Cargar y asegurar el barco",
+          "instruction": "Centra el casco en el remolque, muévete despacio hasta que quede asentado y completa la interacción de aseguramiento disponible antes de remolcar.",
+          "largeBoatTip": "Centra el casco en el remolque, muévete lentamente hasta que esté asentado y completa la interacción de aseguramiento disponible antes de remolcar.",
+          "problem": "Verifica que la proa y la popa estén centradas antes de mover un casco largo.",
+          "solution": "El bote se desplaza, se inclina o se cae del remolque."
+        },
+        {
+          "title": "Detente, descarga o reposiciona el casco, céntralo de nuevo y asegúralo antes de conducir.",
+          "instruction": "Acelera gradualmente, frena con anticipación y toma curvas amplias. Los movimientos bruscos del volante pueden hacer que el remolque se balancee o desestabilizar la carga.",
+          "largeBoatTip": "Acelera gradualmente, frena con anticipación y toma curvas amplias. Los movimientos bruscos de dirección pueden hacer que el remolque se balancee o desestabilice la carga.",
+          "problem": "Usa curvas más amplias y una velocidad más baja para botes pesados o largos.",
+          "solution": "El remolque colea o golpea objetos al costado del camino."
+        },
+        {
+          "title": "Suelta el acelerador, endereza el camión y continúa solo después de que el remolque se estabilice.",
+          "instruction": "Retrocede por la rampa en línea recta, realiza correcciones leves y baja el remolque lo suficiente para que el bote entre al agua limpiamente.",
+          "largeBoatTip": "Retrocede por la rampa en línea recta, realiza correcciones leves y baja el remolque lo suficiente para que el bote entre al agua limpiamente.",
+          "problem": "Mantén el camión alineado con la rampa para que el casco no gire sobre el remolque.",
+          "solution": "El remolque se engancha en la rampa o el bote se lanza de lado."
+        },
+        {
+          "title": "Avanza, reinicia la aproximación y retrocede de nuevo con movimientos de dirección más pequeños.",
+          "instruction": "Centra el remolque con el bote, cárgalo en línea recta, asegura el casco y estaciónate donde la interacción del taller sea fácil de alcanzar.",
+          "largeBoatTip": "Centra el remolque con el bote, cárgalo desde una aproximación recta, asegura el casco y estaciónalo donde la interacción del taller sea fácil de alcanzar.",
+          "problem": "Usa una aproximación final más lenta porque los botes largos necesitan más distancia para asentarse en el remolque.",
+          "solution": "Las físicas dejan el bote o el remolque en un ángulo inestable."
+        }
+      ]
+    },
+    "flipABoatRebirthsAndUpdates": {
+      "title": "Deja de forzar la configuración, desengancha cuando sea posible, reposiciona en terreno nivelado y vuelve a conectar con una alineación limpia.",
+      "eyebrow": "Rebirths y actualizaciones de Flip A Boat",
+      "subtitle": "Usa renacimientos para convertir el progreso completado en poder duradero, luego sigue los códigos de lanzamiento, arreglos, barcos y actualizaciones de funciones de PolyCore Games.",
+      "intro": "Usa los rebirths para convertir la progresión completada en poder duradero, luego sigue los códigos de lanzamiento, correcciones, botes y actualizaciones de funciones de PolyCore Games.",
+      "updates": [
+        {
+          "heading": "El rebirth es el sistema de progresión a largo plazo en Flip A Boat. Completa el objetivo que se muestra en la interfaz de rebirth, confirma el reinicio y comienza un nuevo ciclo de restauración con un bono permanente que fortalecerá la progresión futura. Debido a que el juego se lanzó con reparaciones detalladas, progresión de botes grandes, almacenamiento de flota, transporte y físicas realistas, las notas de actualización son especialmente útiles para rastrear correcciones y cambios de equilibrio.",
+          "summary": "Requisito de Rebirth",
+          "content": "Completa el objetivo de progresión que se muestra en la interfaz de rebirth dentro del juego."
+        },
+        {
+          "heading": "El rebirth está diseñado para jugadores que ya han acumulado Cash mediante restauraciones repetidas de botes. Abre la pantalla de rebirth, revisa el objetivo y el bono actuales, y realiza el rebirth una vez completado el requisito.",
+          "summary": "Reinicio y bono permanente",
+          "content": "Un rebirth inicia un nuevo ciclo de progresión y otorga un bono duradero para partidas posteriores."
+        },
+        {
+          "heading": "Julio 2026 — Lanzamiento público",
+          "summary": "Julio de 2026 — Lanzamiento público",
+          "content": "Flip A Boat se lanzó con el ciclo completo de compra, reparación, personalización y venta."
+        },
+        {
+          "heading": "Las características de lanzamiento incluyen la compra de botes dañados, reparaciones pieza por pieza, progresión desde un bote inicial de 11 pies deteriorado hasta una consola central de 40 pies con cuatro motores fuera de borda, física realista de olas y botes, pintura y personalización, almacenamiento de flota, transporte en camión y remolque, reventa rentable y bonificaciones de rebirth.",
+          "summary": "Julio de 2026 — Código de lanzamiento",
+          "content": "Abre la Configuración desde la esquina inferior izquierda, desplázate hasta la sección de Códigos, ingresa release y presiona Enter. El Cash proporciona capital de trabajo adicional para la compra de un barco y las piezas de reparación necesarias."
+        },
+        {
+          "heading": "Abre Configuración en la esquina inferior izquierda, desplázate hasta la sección de Códigos, ingresa release y presiona Enter. El Cash proporciona capital de trabajo adicional para comprar un bote y las piezas de reparación necesarias.",
+          "summary": "Correcciones de lanzamiento y actualizaciones de equilibrio",
+          "content": "PolyCore Games está corrigiendo activamente los errores de lanzamiento y expandiendo el juego."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "La descripción de Roblox identifica la experiencia como un nuevo lanzamiento y afirma que los errores se corregirán lo antes posible. Consulta la página de la experiencia en Roblox, la comunidad de PolyCore Games y el Discord oficial para ver nuevos botes, lanzamientos de códigos, correcciones de reparación, cambios en el transporte, equilibrio de la economía y contenido próximo.",
+    "titleHighlight": "Preguntas",
+    "subtitle": "Todo lo que necesitas saber sobre Flip A Boat en Roblox",
+    "questions": [
+      {
+        "question": "Todo lo que necesitas saber sobre Flip A Boat en Roblox",
+        "answer": "Flip A Boat es un simulador de Roblox de restauración y reventa de botes de PolyCore Games. Compras botes dañados, reparas cada pieza, los personalizas, transportas proyectos en camión y remolque, y revendes los botes restaurados por Cash y bonificaciones de renacimiento."
+      },
+      {
+        "question": "Flip A Boat es un simulador de restauración y reventa de botes en Roblox de PolyCore Games. Compras botes dañados, reparas cada pieza, los personalizas, transportas los proyectos en camión y remolque, y revendes los botes restaurados para obtener Cash y bonificaciones de rebirth.",
+        "answer": "Abre Flip A Boat en Roblox, toca el botón del engranaje en la esquina inferior izquierda, desplázate hasta la sección Canjear código en Ajustes, ingresa el código release y presiona Enter para reclamar 10,000 Cash para tu primer bote y piezas de reparación."
+      },
+      {
+        "question": "Abre Flip A Boat en Roblox, toca el botón del engranaje en la esquina inferior izquierda, desplázate hasta la sección Canjear código en Configuración, ingresa el código release y presiona Enter para reclamar 10,000 de Cash para tu primer bote y piezas de reparación.",
+        "answer": "El mejor barco para principiantes de Flip A Boat es el proyecto más pequeño que puedas reparar por completo mientras mantienes una reserva de Cash para piezas. La mayoría de los jugadores nuevos comienzan con el barco inicial de 11 pies deteriorado, completan las reparaciones necesarias, lo venden y reinvierten las ganancias en el siguiente nivel."
+      },
+      {
+        "question": "El mejor bote para principiantes en Flip A Boat es el proyecto más pequeño que puedas reparar por completo manteniendo una reserva de Cash para piezas. La mayoría de los jugadores nuevos comienzan con el bote inicial de 11 pies deteriorado, terminan sus reparaciones necesarias, lo venden y reinvierten las ganancias en el siguiente nivel.",
+        "answer": "Flip A Boat utiliza un sistema de reparación pieza por pieza. Estaciona el bote en el taller, inspecciona cada componente resaltado y compra las piezas exactas que solicita la interfaz de reparación —primero los motores fuera de borda, luego la dirección, los indicadores, el casco y el interior— antes de gastar Cash en pintura o personalización."
+      },
+      {
+        "question": "Flip A Boat utiliza un sistema de reparación pieza por pieza. Estaciona el bote en el taller, inspecciona cada componente resaltado y compra las piezas exactas que solicita la interfaz de reparación (motores fuera de borda primero, luego dirección, indicadores, casco e interior) antes de gastar Cash en pintura o personalización.",
+        "answer": "Para ganar dinero en Flip A Boat, compra un barco dañado por debajo de tu presupuesto total, reserva Cash para las piezas necesarias, termina las reparaciones funcionales, limita los gastos estéticos y luego vende el barco restaurado por más de lo que costó la compra más las reparaciones. Repite con tamaños de barcos rentables antes de pasar a modelos más grandes."
+      },
+      {
+        "question": "Para ganar dinero en Flip A Boat, compra un bote dañado por debajo de tu presupuesto total, reserva Cash para las piezas necesarias, termina las reparaciones funcionales, limita el gasto cosmético y luego vende el bote restaurado por más del costo de compra más la reparación. Repite con tamaños de botes rentables antes de escalar.",
+        "answer": "Rebirth es el sistema de progresión a largo plazo de Flip A Boat. Una vez que completas el objetivo mostrado en la interfaz de Rebirth, reinicias el ciclo actual a cambio de una bonificación permanente que hace que cada partida futura sea más fuerte, lo que te permite volver a acumular Cash y alcanzar barcos más grandes más rápido."
+      }
+    ]
+  },
+  "cta": {
+    "title": "El rebirth es el sistema de progresión a largo plazo de Flip A Boat. Una vez que completas el objetivo mostrado en la interfaz de rebirth, reinicias el ciclo actual a cambio de una bonificación permanente que fortalece cada partida futura, permitiéndote acumular Cash y llegar a botes más grandes más rápido.",
+    "description": "¿Listo para restaurar tu primer bote?",
+    "joinCommunity": "¡Únete a la comunidad de Flip A Boat en Discord para obtener códigos, actualizaciones, consejos de reparación y guías para ganar dinero!",
+    "joinGame": "Unirse al Discord"
+  },
+  "footer": {
+    "title": "Jugar en Roblox",
+    "description": "Tu centro de recursos completo para códigos de Flip A Boat, barcos, reparaciones, piezas, guías de dinero, renacimientos y remolques.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "YouTube",
+    "steamCommunity": "Comunidad de Roblox",
+    "steamStore": "Jugar en Roblox",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Derechos de autor",
+    "copyright": "© 2026 Flip A Boat Wiki. No afiliado a PolyCore Games ni a Roblox Corporation.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Flip A Boat",
+      "description": "Todos los códigos de Flip A Boat que funcionan, las recompensas que otorga cada uno y los pasos exactos para canjear códigos en el menú de Ajustes del juego.",
+      "metaTitle": "Códigos de Flip A Boat - Todos los códigos funcionales y recompensas (2026)",
+      "metaDescription": "Encuentra todos los códigos de Flip A Boat que funcionan, las recompensas de cada código y los pasos para canjearlos. Canjea códigos de Flip A Boat en Ajustes para obtener Cash gratis y financiar tus proyectos de barcos.",
+      "categoryLabel": "CÓDIGOS",
+      "whatIs": "¿Qué son los códigos de Flip A Boat?",
+      "whatIsDescription": "Los códigos de Flip A Boat son recompensas gratuitas lanzadas por PolyCore Games. Canjear un código en el menú de Ajustes otorga Cash que puedes gastar en un barco de proyecto y en las piezas de repuesto necesarias para completar su reparación.",
+      "why": "¿Por qué canjear códigos de Flip A Boat?",
+      "whySteps": {
+        "step1Title": "Cash inicial gratuito",
+        "step1Description": "Los códigos otorgan Cash antes de que vendas un barco, ideal para tu primera compra y reserva de reparación.",
+        "step2Title": "Financia piezas de reparación",
+        "step2Description": "Usa las recompensas de los códigos para comprar las piezas de repuesto exactas que solicita la interfaz de reparación.",
+        "step3Title": "Mantente al día",
+        "step3Description": "Se lanzan nuevos códigos junto con las actualizaciones, por lo que volver a consultar mantiene tu reserva de Cash al máximo."
+      },
+      "featured": "Códigos destacados",
+      "all": "Todos los códigos de Flip A Boat"
+    },
+    "release": {
+      "title": "Lanzamiento de Flip A Boat",
+      "description": "Detalles del lanzamiento de Flip A Boat, fecha de estreno, funciones del primer día y el código de lanzamiento que otorga Cash gratis a los nuevos jugadores.",
+      "metaTitle": "Fecha de lanzamiento de Flip A Boat, funciones de estreno y código del primer día",
+      "metaDescription": "Información de lanzamiento de Flip A Boat, incluyendo la fecha de estreno, funciones de juego del primer día y el lanzamiento del código que otorga 10,000 Cash a los nuevos jugadores de Roblox.",
+      "categoryLabel": "LANZAMIENTO",
+      "whatIs": "¿Qué es el lanzamiento de Flip A Boat?",
+      "whatIsDescription": "El lanzamiento de Flip A Boat es el estreno público en Roblox del simulador de restauración y reventa de barcos de PolyCore Games, que ofrece a los jugadores el ciclo completo de compra-reparación-personalización-venta, físicas realistas y progresión por rebirth.",
+      "why": "¿Por qué seguir el lanzamiento de Flip A Boat?",
+      "whySteps": {
+        "step1Title": "Canjea el código de lanzamiento",
+        "step1Description": "Los nuevos jugadores pueden canjear el código de estreno por 10,000 Cash al momento del lanzamiento.",
+        "step2Title": "Conoce las funciones del primer día",
+        "step2Description": "Entiende las reparaciones, el transporte, el almacenamiento de la flota y el rebirth antes de gastar tu primer Cash.",
+        "step3Title": "Sigue las notas del parche",
+        "step3Description": "PolyCore Games lanza correcciones rápidamente, por lo que las notas de lanzamiento son importantes desde el primer día."
+      },
+      "featured": "Información destacada del lanzamiento",
+      "all": "Todos los artículos del lanzamiento"
+    },
+    "guide": {
+      "title": "Guías de Flip A Boat",
+      "description": "Guías completas de Flip A Boat, desde los conceptos básicos para principiantes hasta estrategias avanzadas de transporte, rebirth y para ganar dinero.",
+      "metaTitle": "Guías de Flip A Boat - Estrategias de nivel principiante a avanzado",
+      "metaDescription": "Guías completas de Flip A Boat que cubren consejos para principiantes, el ciclo de reparación, transporte, obtención de dinero, rebirth y estrategias avanzadas para restaurar barcos en Roblox.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué son las guías de Flip A Boat?",
+      "whatIsDescription": "Las guías de Flip A Boat te llevan a través del ciclo principal del juego: comprar un barco dañado, transportarlo al taller, reparar cada pieza necesaria, personalizar la construcción y revenderlo para obtener ganancias y progreso de rebirth.",
+      "why": "¿Por qué leer las guías de Flip A Boat?",
+      "whySteps": {
+        "step1Title": "Aprende el ciclo principal",
+        "step1Description": "Domina la compra, el transporte, la reparación y la venta antes de gastar tu Cash inicial.",
+        "step2Title": "Progresa más rápido",
+        "step2Description": "Sigue la ruta de mejora estándar desde el barco inicial de 11 pies hasta la consola central de 40 pies.",
+        "step3Title": "Evita errores costosos",
+        "step3Description": "Protege tu reserva de reparaciones y deja de malgastar Cash en las mejoras equivocadas."
+      },
+      "featured": "Guías destacadas",
+      "all": "Todas las guías de Flip A Boat"
+    },
+    "boats": {
+      "title": "Barcos de Flip A Boat",
+      "description": "Cada nivel de barco de Flip A Boat, desde el proyecto inicial de 11 pies hasta la consola central de 40 pies con cuatro motores fuera de borda, con tamaño, configuración de motores y valor de reventa.",
+      "metaTitle": "Barcos de Flip A Boat - Niveles, tamaños y valores de reventa",
+      "metaDescription": "Explora cada nivel de barcos de Flip A Boat, incluyendo el modelo inicial de 11 pies, barcos de proyecto medianos y la consola central de 40 pies con motores fueraborda cuádruples, con configuraciones de motor y potencial de reventa.",
+      "categoryLabel": "BARCOS",
+      "whatIs": "¿Qué son los botes de Flip A Boat?",
+      "whatIsDescription": "Los barcos de Flip A Boat varían desde un deteriorado proyecto inicial de 11 pies hasta grandes consolas centrales para alta mar. Cada nivel escala en precio de compra, carga de trabajo de reparación, cantidad de motores y valor de reventa a medida que progresas.",
+      "why": "¿Por qué comparar los barcos de Flip A Boat?",
+      "whySteps": {
+        "step1Title": "Elige el proyecto adecuado",
+        "step1Description": "Haz coincidir el tamaño del barco con el Cash y la reserva de reparación que realmente tienes.",
+        "step2Title": "Planificar configuraciones de motores",
+        "step2Description": "Pasa de motores fuera de borda individuales a cuádruples en los cascos más grandes.",
+        "step3Title": "Maximizar reventa",
+        "step3Description": "Elige niveles cuyo potencial de reventa justifique la carga de trabajo de reparación."
+      },
+      "featured": "Barcos destacados",
+      "all": "Todos los barcos de Flip A Boat"
+    },
+    "repairs": {
+      "title": "Reparaciones de Flip A Boat",
+      "description": "Cómo funciona el sistema de reparación pieza por pieza de Flip A Boat, qué componentes reparar primero y las inspecciones previas que debes realizar antes de vender.",
+      "metaTitle": "Reparaciones de Flip A Boat - Orden de reparación y costos pieza por pieza",
+      "metaDescription": "Domina el sistema de reparación de Flip A Boat con el orden de reparación correcto, la ubicación de los componentes, el costo de las piezas y las inspecciones previas a la venta para motores fuera de borda, dirección, indicadores, casco e interior.",
+      "categoryLabel": "REPARACIONES",
+      "whatIs": "¿Qué es el sistema de reparación de Flip A Boat?",
+      "whatIsDescription": "Las reparaciones en Flip A Boat son un proceso de restauración pieza por pieza. Cada componente resaltado en el casco, el timón y el motor tiene su propio costo de reemplazo, y el trabajo mecánico requerido debe finalizarse antes de las mejoras cosméticas.",
+      "why": "¿Por qué seguir una orden de reparación de Flip A Boat?",
+      "whySteps": {
+        "step1Title": "Termina primero las piezas requeridas",
+        "step1Description": "Repara los motores fuera de borda, la dirección, los indicadores y el casco antes de pintar o añadir accesorios.",
+        "step2Title": "Controlar los costos de reparación",
+        "step2Description": "Compra solo las piezas exactas que solicita la interfaz de reparación.",
+        "step3Title": "Aprobar la inspección previa a la venta",
+        "step3Description": "Confirma que cada componente esté completo para que la venta genere un margen positivo."
+      },
+      "featured": "Guías de reparación destacadas",
+      "all": "Todas las guías de reparación"
+    },
+    "money": {
+      "title": "Dinero en Flip A Boat",
+      "description": "Las mejores formas de ganar Cash en Flip A Boat comprando barato, controlando los costos de reparación y vendiendo botes restaurados con ganancias.",
+      "metaTitle": "Guía de dinero de Flip A Boat - Los mejores botes para restaurar y vender por ganancias",
+      "metaDescription": "Aprende cómo ganar dinero en Flip A Boat con estrategias para principiantes, nivel medio y experimentados para comprar barato, controlar costos de reparación y vender botes restaurados por ganancias.",
+      "categoryLabel": "DINERO",
+      "whatIs": "¿Qué es el sistema de dinero de Flip A Boat?",
+      "whatIsDescription": "El ciclo de dinero de Flip A Boat es simple: compra un bote averiado, repáralo pieza por pieza y véndelo por más del costo total del proyecto. Las ganancias provienen de mantener una reserva para reparaciones, terminar el trabajo requerido y limitar los gastos opcionales.",
+      "why": "¿Por qué usar una estrategia de dinero en Flip A Boat?",
+      "whySteps": {
+        "step1Title": "Protege tu Cash",
+        "step1Description": "Mantén una reserva de reparación para que siempre puedas terminar el proyecto que compres.",
+        "step2Title": "Repite tamaños rentables",
+        "step2Description": "Sube de nivel solo cuando una venta pueda cubrir el siguiente bote y sus piezas.",
+        "step3Title": "Mide la ganancia real",
+        "step3Description": "Calcula la ganancia después de la compra, las piezas y las mejoras opcionales."
+      },
+      "featured": "Guías de dinero destacadas",
+      "all": "Todas las guías de dinero"
+    },
+    "transport": {
+      "title": "Transporte en Flip A Boat",
+      "description": "Cómo cargar, asegurar, remolcar, lanzar y recuperar botes con camiones y remolques en Flip A Boat, con consejos de transporte para cada tamaño de bote.",
+      "metaTitle": "Camiones y remolques en Flip A Boat - Carga, remolque, lanzamiento y recuperación",
+      "metaDescription": "Domina el transporte con camiones y remolques en Flip A Boat con pasos para cargar, asegurar, remolcar, lanzar y recuperar botes, además de consejos para cascos grandes y problemas comunes de física.",
+      "categoryLabel": "TRANSPORTE",
+      "whatIs": "¿Qué es el transporte en Flip A Boat?",
+      "whatIsDescription": "El transporte en Flip A Boat es el traslado con camión y remolque que mueve los botes del proyecto entre el mercado, el taller y la rampa de lanzamiento. La física realista significa que una alineación lenta y una conducción suave protegen el bote, el remolque y tu margen de beneficio.",
+      "why": "¿Por qué aprender el transporte en Flip A Boat?",
+      "whySteps": {
+        "step1Title": "Alinéate recto",
+        "step1Description": "Retrocede hacia el remolque en línea recta y usa movimientos suaves de dirección.",
+        "step2Title": "Asegura antes de moverte",
+        "step2Description": "Centra el casco y completa la interacción de aseguramiento antes de remolcar.",
+        "step3Title": "Conduce con suavidad",
+        "step3Description": "Acelera gradualmente, frena temprano y toma curvas amplias para evitar el derrape del remolque."
+      },
+      "featured": "Guías de transporte destacadas",
+      "all": "Todas las guías de transporte"
+    }
+  }
+}
